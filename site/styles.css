@@ -1,4 +1,4 @@
-/* Heartbox product site — uses the theme itself */
+/* Heartbox product site — HSB palette · Bleach catalog boxes */
 :root {
   --hb-bg: #1a1214;
   --hb-bg-alt: #2c1f22;
@@ -137,7 +137,7 @@ main {
 .dot {
   width: 0.55rem;
   height: 0.55rem;
-  border-radius: 50%;
+  border-radius: 0;
   background: var(--hb-red);
   box-shadow: 0 0 10px var(--hb-red);
 }
@@ -180,7 +180,7 @@ h1 {
   text-decoration: none;
   padding: 0.55rem 1rem;
   border: 1px solid var(--hb-dim);
-  border-radius: 2px;
+  border-radius: 0;
   transition: border-color 0.15s, background 0.15s, color 0.15s;
 }
 .btn.primary {
@@ -208,7 +208,7 @@ h1 {
   background: color-mix(in srgb, var(--hb-panel) 88%, transparent);
   border: 1px solid var(--hb-dim);
   border-top: 2px solid var(--hb-silver);
-  backdrop-filter: blur(6px);
+  backdrop-filter: none;
 }
 
 .panel-head {

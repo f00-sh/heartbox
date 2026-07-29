@@ -7,7 +7,7 @@
 - Site: https://heartbox.f00.sh
 - Repo: f00-sh/heartbox (org: **f00-sh**)
 - Hub: https://f00.sh (released product card)
-- **f00 default brand theme:** hub + every product site load Heartbox colors via `https://f00.sh/theme/f00-theme-13.css`
+- **f00 default brand theme:** hub + every product site load Heartbox colors via `https://f00.sh/theme/f00-theme-14.css`
 
 ## Declared language
 
@@ -34,7 +34,7 @@
 
 - Org: `f00-sh`
 - Catalog SSOT: https://f00.sh/catalog.json (`f00` repo `site/catalog.json`)
-- Theme: https://f00.sh/theme/f00-theme-13.css (Heartbox palette — do not redefine brand colors/fonts)
+- Theme: https://f00.sh/theme/f00-theme-14.css (Heartbox palette — do not redefine brand colors/fonts)
 - Card on hub: `status=released` after a real release
 
 ## Layout
@@ -77,3 +77,9 @@ npx wrangler pages dev site --compatibility-date=2026-07-01
 
 - Every SemVer release: CHANGELOG, file_id.diz, README + docs triad, NASA SOP PDF, this-version NASA memo PDF, GitHub Release assets, f00 hub product card if first ship or copy change.
 - Bump `version` in `palette/heartbox.json` and regenerate.
+
+## Visual law (all f00 products)
+
+- **Contrasts:** Nirvana *Heart-Shaped Box* video / Heartbox palette — hospital-night bg, cream fg, poppy accent, verse sky, silver metal.
+- **Text & boxes:** Nirvana *Bleach* album — hard square frames, catalog mono labels, no rounded glass, thin rules, raw liner-note density.
+- Theme CSS: `https://f00.sh/theme/f00-theme-14.css` (do not invent brand hex or soft UI radii).

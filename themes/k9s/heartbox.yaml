@@ -1,0 +1,64 @@
+# Heartbox — k9s skin
+k9s:
+  body:
+    fgColor: "#F4EBE0"
+    bgColor: "#1A1214"
+    logoColor: "#E02030"
+  prompt:
+    fgColor: "#F4EBE0"
+    bgColor: "#1A1214"
+    suggestColor: "#5EC8E8"
+  info:
+    fgColor: "#E86A9A"
+    sectionColor: "#F4EBE0"
+  dialog:
+    fgColor: "#F4EBE0"
+    bgColor: "#1A1214"
+    buttonFgColor: "#1A1214"
+    buttonBgColor: "#E02030"
+    buttonFocusFgColor: "#1A1214"
+    buttonFocusBgColor: "#5EC8E8"
+    labelFgColor: "#E8D45A"
+    fieldFgColor: "#F4EBE0"
+  frame:
+    border:
+      fgColor: "#B8C0C8"
+      focusColor: "#E02030"
+    menu:
+      fgColor: "#F4EBE0"
+      keyColor: "#E86A9A"
+      numKeyColor: "#E8924A"
+    crumbs:
+      fgColor: "#1A1214"
+      bgColor: "#7A5A9E"
+      activeColor: "#E02030"
+    status:
+      newColor: "#5EC8E8"
+      modifyColor: "#E8D45A"
+      addColor: "#5FBF4A"
+      errorColor: "#E02030"
+      highlightColor: "#E8924A"
+      killColor: "#E86A9A"
+      completedColor: "#8A6E78"
+    title:
+      fgColor: "#F4EBE0"
+      bgColor: "#1A1214"
+      highlightColor: "#B8C0C8"
+      counterColor: "#5EC8E8"
+      filterColor: "#E86A9A"
+  views:
+    table:
+      fgColor: "#F4EBE0"
+      bgColor: "#1A1214"
+      cursorFgColor: "#1A1214"
+      cursorBgColor: "#3A2428"
+      header:
+        fgColor: "#F4EBE0"
+        bgColor: "#1A1214"
+        sorterColor: "#B8C0C8"
+    logs:
+      fgColor: "#F4EBE0"
+      bgColor: "#1A1214"
+      indicator:
+        fgColor: "#F4EBE0"
+        bgColor: "#E02030"

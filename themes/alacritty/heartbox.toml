@@ -1,0 +1,32 @@
+# Heartbox — Alacritty
+[colors.primary]
+background = "#1A1214"
+foreground = "#F4EBE0"
+
+[colors.cursor]
+text = "#1A1214"
+cursor = "#B8C0C8"
+
+[colors.selection]
+text = "#F4EBE0"
+background = "#3A2428"
+
+[colors.normal]
+black = "#1A1214"
+red = "#E02030"
+green = "#5FBF4A"
+yellow = "#E8D45A"
+blue = "#5EC8E8"
+magenta = "#E86A9A"
+cyan = "#5EC8E8"
+white = "#F4EBE0"
+
+[colors.bright]
+black = "#4A3A3E"
+red = "#FF4A58"
+green = "#7AD964"
+yellow = "#F0E47A"
+blue = "#7AD8F0"
+magenta = "#F08BB0"
+cyan = "#8AE0F5"
+white = "#FFF8F0"

@@ -1,0 +1,27 @@
+/* Heartbox — waybar */
+* {
+  border: none;
+  font-family: monospace;
+  font-size: 13px;
+}
+window#waybar {
+  background: #1A1214;
+  color: #F4EBE0;
+  border-bottom: 2px solid #B8C0C8;
+}
+#workspaces button {
+  padding: 0 8px;
+  color: #8A6E78;
+  background: transparent;
+}
+#workspaces button.active {
+  color: #1A1214;
+  background: #E02030;
+}
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray {
+  padding: 0 10px;
+  color: #F4EBE0;
+}
+#battery.warning { color: #E8924A; }
+#battery.critical { color: #E02030; }
+#network.disconnected { color: #E02030; }

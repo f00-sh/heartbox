@@ -1,0 +1,44 @@
+# Heartbox — Helix (~/.config/helix/themes/heartbox.toml)
+"ui.background" = { bg = "background" }
+"ui.text" = "foreground"
+"ui.cursor" = { fg = "background", bg = "silver" }
+"ui.selection" = { bg = "selection" }
+"ui.linenr" = "bright_black"
+"ui.linenr.selected" = "silver"
+"ui.statusline" = { fg = "foreground", bg = "current_line" }
+"ui.statusline.inactive" = { fg = "comment", bg = "current_line" }
+"ui.menu" = { fg = "foreground", bg = "current_line" }
+"ui.menu.selected" = { fg = "background", bg = "red" }
+"comment" = { fg = "comment", modifiers = ["italic"] }
+"keyword" = "pink"
+"function" = "sky"
+"string" = "yellow"
+"constant" = "purple"
+"type" = "sky"
+"variable" = "foreground"
+"number" = "orange"
+"punctuation" = "silver"
+"operator" = "pink"
+"error" = "red"
+"warning" = "orange"
+"info" = "sky"
+"hint" = "silver"
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+
+[palette]
+background = "#1A1214"
+current_line = "#2C1F22"
+selection = "#3A2428"
+foreground = "#F4EBE0"
+comment = "#8A6E78"
+sky = "#5EC8E8"
+green = "#5FBF4A"
+orange = "#E8924A"
+pink = "#E86A9A"
+purple = "#7A5A9E"
+red = "#E02030"
+yellow = "#E8D45A"
+silver = "#B8C0C8"
+bright_black = "#4A3A3E"

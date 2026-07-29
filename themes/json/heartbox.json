@@ -1,0 +1,166 @@
+{
+  "name": "Heartbox",
+  "author": "f00",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Hand-tinted Technicolor dark theme — poppy fields, hospital gloom, verse-sky blue, chorus red, and a cool silver like a worn metal jacket.",
+  "aesthetic": {
+    "feel": [
+      "hand-tinted Technicolor over black-and-white",
+      "hyper-real poppy red against night soil",
+      "verse sky blue / chorus blood red shift",
+      "anatomical pink and bruise purple",
+      "subtle cool silver metal accent",
+      "hospital-room blacks with warm dust"
+    ],
+    "inspiration": "Color and atmosphere of the 1993 Heart-Shaped Box music video treatment (hand-painted Technicolor, poppy field, sky/box color shifts). Original work; not affiliated with the band or video rights holders."
+  },
+  "colors": {
+    "background": {
+      "hex": "#1A1214",
+      "rgb": [26, 18, 20],
+      "hsl": [348, 18, 9],
+      "role": "Hospital-night underpaint; deep warm black"
+    },
+    "current_line": {
+      "hex": "#2C1F22",
+      "rgb": [44, 31, 34],
+      "hsl": [346, 17, 15],
+      "role": "Surface / line highlight"
+    },
+    "selection": {
+      "hex": "#3A2428",
+      "rgb": [58, 36, 40],
+      "hsl": [349, 23, 18],
+      "role": "Selection background"
+    },
+    "foreground": {
+      "hex": "#F4EBE0",
+      "rgb": [244, 235, 224],
+      "hsl": [33, 48, 92],
+      "role": "Hand-tinted cream light"
+    },
+    "comment": {
+      "hex": "#8A6E78",
+      "rgb": [138, 110, 120],
+      "hsl": [339, 11, 49],
+      "role": "Dusty mauve — faded paint, soft focus"
+    },
+    "sky": {
+      "hex": "#5EC8E8",
+      "rgb": [94, 200, 232],
+      "hsl": [194, 75, 64],
+      "role": "Verse technicolor sky / cyan"
+    },
+    "green": {
+      "hex": "#5FBF4A",
+      "rgb": [95, 191, 74],
+      "hsl": [109, 48, 52],
+      "role": "Poppy stem / field green"
+    },
+    "orange": {
+      "hex": "#E8924A",
+      "rgb": [232, 146, 74],
+      "hsl": [27, 77, 60],
+      "role": "Amber warmth, flesh underpaint"
+    },
+    "pink": {
+      "hex": "#E86A9A",
+      "rgb": [232, 106, 154],
+      "hsl": [337, 73, 66],
+      "role": "Anatomical / heart pink"
+    },
+    "purple": {
+      "hex": "#7A5A9E",
+      "rgb": [122, 90, 158],
+      "hsl": [268, 27, 49],
+      "role": "Bruise / crow shadow purple"
+    },
+    "red": {
+      "hex": "#E02030",
+      "rgb": [224, 32, 48],
+      "hsl": [355, 75, 50],
+      "role": "Poppy red — primary accent / chorus"
+    },
+    "yellow": {
+      "hex": "#E8D45A",
+      "rgb": [232, 212, 90],
+      "hsl": [52, 76, 63],
+      "role": "Hand-tint yellow, sun-sick light"
+    },
+    "silver": {
+      "hex": "#B8C0C8",
+      "rgb": [184, 192, 200],
+      "hsl": [210, 13, 75],
+      "role": "Cool metal jacket — subtle chrome accent"
+    },
+    "bright_black": {
+      "hex": "#4A3A3E",
+      "rgb": [74, 58, 62],
+      "hsl": [345, 12, 26],
+      "role": "Muted terminal black"
+    },
+    "bright_white": {
+      "hex": "#FFF8F0",
+      "rgb": [255, 248, 240],
+      "hsl": [32, 100, 97],
+      "role": "Peak highlight"
+    }
+  },
+  "ansi": {
+    "black": "#1A1214",
+    "red": "#E02030",
+    "green": "#5FBF4A",
+    "yellow": "#E8D45A",
+    "blue": "#5EC8E8",
+    "magenta": "#E86A9A",
+    "cyan": "#5EC8E8",
+    "white": "#F4EBE0",
+    "bright_black": "#4A3A3E",
+    "bright_red": "#FF4A58",
+    "bright_green": "#7AD964",
+    "bright_yellow": "#F0E47A",
+    "bright_blue": "#7AD8F0",
+    "bright_magenta": "#F08BB0",
+    "bright_cyan": "#8AE0F5",
+    "bright_white": "#FFF8F0",
+    "silver": "#B8C0C8"
+  },
+  "ui": {
+    "border": "#4A3A3E",
+    "panel": "#22181B",
+    "muted": "#8A6E78",
+    "accent": "#E02030",
+    "accent_secondary": "#5EC8E8",
+    "metal": "#B8C0C8",
+    "danger": "#E02030",
+    "warning": "#E8924A",
+    "success": "#5FBF4A",
+    "info": "#5EC8E8"
+  },
+  "syntax": {
+    "keyword": "pink",
+    "function": "sky",
+    "variable": "foreground",
+    "string": "yellow",
+    "number": "orange",
+    "constant": "purple",
+    "type": "sky",
+    "class": "green",
+    "operator": "pink",
+    "comment": "comment",
+    "punctuation": "silver",
+    "parameter": "orange",
+    "property": "foreground",
+    "tag": "red",
+    "attribute": "green",
+    "regex": "orange",
+    "escape": "pink",
+    "builtin": "purple",
+    "error": "red",
+    "warning": "orange",
+    "diff_add": "green",
+    "diff_delete": "red",
+    "diff_change": "yellow"
+  }
+}

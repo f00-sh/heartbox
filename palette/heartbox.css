@@ -1,0 +1,22 @@
+/* Heartbox Theme — canonical CSS custom properties */
+:root {
+  --hb-bg: #1A1214;
+  --hb-bg-alt: #2C1F22;
+  --hb-selection: #3A2428;
+  --hb-fg: #F4EBE0;
+  --hb-comment: #8A6E78;
+  --hb-sky: #5EC8E8;
+  --hb-green: #5FBF4A;
+  --hb-orange: #E8924A;
+  --hb-pink: #E86A9A;
+  --hb-purple: #7A5A9E;
+  --hb-red: #E02030;
+  --hb-yellow: #E8D45A;
+  --hb-silver: #B8C0C8;
+  --hb-bright-black: #4A3A3E;
+  --hb-bright-white: #FFF8F0;
+  --hb-panel: #22181B;
+  --hb-border: #4A3A3E;
+  --hb-accent: #E02030;
+  --hb-metal: #B8C0C8;
+}

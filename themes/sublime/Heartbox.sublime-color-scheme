@@ -1,0 +1,91 @@
+{
+  "name": "Heartbox",
+  "globals": {
+    "background": "#1A1214",
+    "foreground": "#F4EBE0",
+    "caret": "#B8C0C8",
+    "line_highlight": "#2C1F22",
+    "selection": "#3A2428",
+    "selection_border": "#4A3A3E",
+    "inactive_selection": "#2C1F22",
+    "find_highlight": "#E8D45A",
+    "find_highlight_foreground": "#1A1214",
+    "brackets_options": "underline",
+    "brackets_foreground": "#E02030",
+    "tags_options": "stippled_underline",
+    "tags_foreground": "#E86A9A",
+    "guide": "#4A3A3E",
+    "active_guide": "#B8C0C8",
+    "gutter": "#1A1214",
+    "gutter_foreground": "#4A3A3E"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "#8A6E78",
+      "font_style": "italic"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "#E8D45A"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "#E8924A"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "foreground": "#E86A9A"
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "foreground": "#E86A9A"
+    },
+    {
+      "name": "Function",
+      "scope": "entity.name.function, support.function",
+      "foreground": "#5EC8E8"
+    },
+    {
+      "name": "Class",
+      "scope": "entity.name.class, entity.name.type",
+      "foreground": "#5FBF4A"
+    },
+    {
+      "name": "Constant",
+      "scope": "constant",
+      "foreground": "#7A5A9E"
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "foreground": "#F4EBE0"
+    },
+    {
+      "name": "Tag",
+      "scope": "entity.name.tag",
+      "foreground": "#E02030"
+    },
+    {
+      "name": "Attribute",
+      "scope": "entity.other.attribute-name",
+      "foreground": "#5FBF4A"
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation",
+      "foreground": "#B8C0C8"
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "foreground": "#F4EBE0",
+      "background": "#E02030"
+    }
+  ]
+}

@@ -1,65 +1,75 @@
-# heartbox(1) — Heartbox — Technicolor dark theme from Nirvana Heart-Shaped Box video aesthetics; one palette, many apps
+# heartbox(1) — Heartbox theme pack
 
-## NAME
+## Name
 
-heartbox — Heartbox — Technicolor dark theme from Nirvana Heart-Shaped Box video aesthetics; one palette, many apps
+heartbox — hand-tinted Technicolor dark theme for terminals, editors, and tools
 
-## SYNOPSIS
-
-```text
-heartbox [OPTIONS]
-```
-
-## DESCRIPTION
-
-Heartbox — Technicolor dark theme from Nirvana Heart-Shaped Box video aesthetics; one palette, many apps
-
-Write this section in Simplified Technical English (STE). Use short sentences.
-State what the program does. Name the primary user and the primary job.
-
-## OPTIONS
-
-Document each flag and subcommand. Use one short description per option.
+## Synopsis
 
 ```text
--h, --help
-    Show help and exit.
-
--V, --version
-    Show version and exit.
+git clone https://github.com/f00-sh/heartbox.git
+cp themes/<app>/…  # per-app install
+python3 scripts/generate-themes.py   # maintainers
 ```
 
-## EXIT STATUS
+## Description
 
-| Code | Meaning |
-|---|---|
-| 0 | Success |
-| non-zero | Failure (document classes when the project defines them) |
+**Heartbox** is a dark color theme defined by a single canonical palette and
+many application ports. Colors favor warm hospital-night blacks, poppy red as
+the hero accent, verse-sky cyan/blue for calm tokens, cream foreground text,
+and a cool **silver** metal accent for cursors and chrome.
 
-## FILES
+Canonical palette path: `palette/heartbox.json`.
 
-List config files, data paths, and other files the user must know.
+Product site: https://heartbox.f00.sh
+
+## Palette tokens
+
+| Token | Hex |
+|-------|-----|
+| background | #1A1214 |
+| current_line | #2C1F22 |
+| selection | #3A2428 |
+| foreground | #F4EBE0 |
+| comment | #8A6E78 |
+| sky | #5EC8E8 |
+| green | #5FBF4A |
+| orange | #E8924A |
+| pink | #E86A9A |
+| purple | #7A5A9E |
+| red | #E02030 |
+| yellow | #E8D45A |
+| silver | #B8C0C8 |
+
+## Files
 
 | Path | Purpose |
-|---|---|
-| `file_id.diz` | Release scene card (ACiD / 16colo.rs-style block ASCII). Lives at the repository root. Ships as a GitHub Release asset with each SemVer version. |
+|------|---------|
+| `palette/heartbox.json` | Source of truth |
+| `palette/heartbox.{css,toml,yaml,scss}` | Interchange formats |
+| `themes/<app>/` | Application ports |
+| `themes/TEMPLATE.md` | How to add a port |
+| `scripts/generate-themes.py` | Regenerate ports |
+| `site/` | Product website sources |
 
-All supported install methods install this manual page.
+## Environment
 
-## EXAMPLES
+None required. Optional: source `themes/fzf/heartbox.sh` for fzf colors.
 
-```text
-# Show the first command a new user should run.
-heartbox --help
-```
+## Exit status
 
-## SEE ALSO
+Generator exits 0 on success.
 
-- [README.md](../README.md)
-- Project site under [docs/](../docs/) (GitHub Pages)
-- [CHANGELOG.md](../CHANGELOG.md)
-- [file_id.diz](../file_id.diz) — release scene card
+## See also
 
-## BUGS
+- https://heartbox.f00.sh
+- https://github.com/f00-sh/heartbox
+- https://f00.sh
 
-Report issues in the project tracker. Do not file security issues in public trackers; see [SECURITY.md](../SECURITY.md).
+## Bugs
+
+Report issues at https://github.com/f00-sh/heartbox/issues
+
+## License
+
+MIT

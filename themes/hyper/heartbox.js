@@ -1,0 +1,27 @@
+// Heartbox — Hyper
+module.exports.decorateConfig = config => ({
+  ...config,
+  backgroundColor: '#1A1214',
+  foregroundColor: '#F4EBE0',
+  borderColor: '#4A3A3E',
+  cursorColor: '#B8C0C8',
+  selectionColor: 'rgba(58, 36, 40, 0.6)',
+  colors: {
+    black: '#1A1214',
+    red: '#E02030',
+    green: '#5FBF4A',
+    yellow: '#E8D45A',
+    blue: '#5EC8E8',
+    magenta: '#E86A9A',
+    cyan: '#5EC8E8',
+    white: '#F4EBE0',
+    lightBlack: '#4A3A3E',
+    lightRed: '#FF4A58',
+    lightGreen: '#7AD964',
+    lightYellow: '#F0E47A',
+    lightBlue: '#7AD8F0',
+    lightMagenta: '#F08BB0',
+    lightCyan: '#8AE0F5',
+    lightWhite: '#FFF8F0',
+  },
+});

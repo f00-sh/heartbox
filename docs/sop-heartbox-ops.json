@@ -1,0 +1,40 @@
+{
+  "id": "sop-heartbox-ops",
+  "title": "Heartbox theme operations",
+  "version": "0.1.0",
+  "product": "heartbox",
+  "site": "https://heartbox.f00.sh",
+  "purpose": "Maintain the Heartbox palette, regenerate ports, deploy the product site, and ship SemVer releases.",
+  "roles": ["maintainer"],
+  "steps": [
+    {
+      "id": "edit-palette",
+      "title": "Edit canonical palette",
+      "detail": "Change colors only in palette/heartbox.json. Keep silver as cool metal for cursor/chrome."
+    },
+    {
+      "id": "regenerate",
+      "title": "Regenerate ports",
+      "detail": "Run python3 scripts/generate-themes.py and review git diff under themes/ and palette/."
+    },
+    {
+      "id": "site",
+      "title": "Update product site swatches",
+      "detail": "If tokens change, update site/app.js COLORS array and site/styles.css :root variables to match."
+    },
+    {
+      "id": "deploy",
+      "title": "Deploy Pages",
+      "detail": "Push site/** to main (workflow pages.yml) or wrangler pages deploy site --project-name=f00-heartbox --branch=main."
+    },
+    {
+      "id": "release",
+      "title": "SemVer release",
+      "detail": "Bump version in palette JSON, CHANGELOG, file_id.diz, README; tag; attach install.sh, file_id.diz, SOP PDF, memo PDF; update f00 hub card."
+    }
+  ],
+  "domains": {
+    "site": "heartbox.f00.sh",
+    "pages_project": "f00-heartbox"
+  }
+}

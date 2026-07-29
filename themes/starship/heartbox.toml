@@ -1,0 +1,15 @@
+# Heartbox — Starship palette fragment
+palette = "heartbox"
+
+[palettes.heartbox]
+bg = "#1A1214"
+fg = "#F4EBE0"
+red = "#E02030"
+green = "#5FBF4A"
+yellow = "#E8D45A"
+sky = "#5EC8E8"
+pink = "#E86A9A"
+purple = "#7A5A9E"
+orange = "#E8924A"
+silver = "#B8C0C8"
+comment = "#8A6E78"

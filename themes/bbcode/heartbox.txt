@@ -1,0 +1,12 @@
+Heartbox BBCode / forum swatches
+Background: #1A1214
+Foreground: #F4EBE0
+Red/Poppy:  #E02030
+Sky:        #5EC8E8
+Green:      #5FBF4A
+Yellow:     #E8D45A
+Pink:       #E86A9A
+Purple:     #7A5A9E
+Orange:     #E8924A
+Silver:     #B8C0C8
+Comment:    #8A6E78

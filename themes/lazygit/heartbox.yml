@@ -1,0 +1,25 @@
+# Heartbox — lazygit
+gui:
+  theme:
+    activeBorderColor:
+      - "#E02030"
+      - bold
+    inactiveBorderColor:
+      - "#4A3A3E"
+    searchingActiveBorderColor:
+      - "#E8D45A"
+      - bold
+    optionsTextColor:
+      - "#5EC8E8"
+    selectedLineBgColor:
+      - "#3A2428"
+    inactiveViewSelectedLineBgColor:
+      - "#2C1F22"
+    cherryPickedCommitBgColor:
+      - "#7A5A9E"
+    cherryPickedCommitFgColor:
+      - "#F4EBE0"
+    unstagedChangesColor:
+      - "#E02030"
+    defaultFgColor:
+      - "#F4EBE0"

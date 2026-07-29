@@ -1,45 +1,31 @@
-#!/usr/bin/env bash
-# heartbox — install from GitHub Releases (curl | sh).
-# Must install the binary/artifact AND man page(s). Incomplete without man pages.
-set -euo pipefail
+#!/usr/bin/env sh
+# Heartbox install helper — man page + theme location hint
+set -eu
 
-PROJECT="heartbox"
-REPO="theesfeld/heartbox"
-# Override for testing: INSTALL_BASE=/tmp/foo ./install.sh
-INSTALL_BIN_DIR="${INSTALL_BIN_DIR:-${HOME}/.local/bin}"
-INSTALL_MAN_DIR="${INSTALL_MAN_DIR:-${HOME}/.local/share/man/man1}"
-RELEASE_API="https://api.github.com/repos/${REPO}/releases/latest"
-# Prefer a fixed asset name pattern on each release, e.g.:
-#   heartbox-<version>-<os>-<arch>.tar.gz  including man pages
+REPO="${HEARTBOX_REPO:-f00-sh/heartbox}"
+PREFIX="${PREFIX:-${HOME}/.local}"
+MAN_DIR="${PREFIX}/share/man/man1"
+mkdir -p "${MAN_DIR}"
 
-die() {
-  printf '%s\n' "error: $*" >&2
-  exit 1
-}
+tmp="$(mktemp -d)"
+trap 'rm -rf "${tmp}"' EXIT
 
-need_cmd() {
-  command -v "$1" >/dev/null 2>&1 || die "required command not found: $1"
-}
+echo "Heartbox: theme pack (no binary)."
+echo "Clone or download themes from: https://github.com/${REPO}"
+echo ""
+echo "  git clone https://github.com/${REPO}.git"
+echo "  ls heartbox/themes/"
+echo ""
 
-need_cmd curl
-need_cmd uname
-need_cmd mkdir
+# Prefer release asset man page if present; else skip quietly
+asset="https://github.com/${REPO}/releases/latest/download/heartbox.1"
+if command -v curl >/dev/null 2>&1; then
+  if curl -fsSL "${asset}" -o "${tmp}/heartbox.1" 2>/dev/null; then
+    install -m 0644 "${tmp}/heartbox.1" "${MAN_DIR}/heartbox.1"
+    echo "Installed man page → ${MAN_DIR}/heartbox.1"
+  else
+    echo "No man page asset on latest release yet; see man/heartbox.1.md in the repo."
+  fi
+fi
 
-os="$(uname -s | tr '[:upper:]' '[:lower:]')"
-arch="$(uname -m)"
-case "$arch" in
-  x86_64 | amd64) arch="x86_64" ;;
-  aarch64 | arm64) arch="aarch64" ;;
-  *) die "unsupported architecture: $arch" ;;
-esac
-
-# TODO: map os/arch to the release asset name this project publishes.
-# Example asset: ${PROJECT}-vX.Y.Z-${os}-${arch}.tar.gz
-die "scaffold install.sh: set asset download + extract for ${PROJECT} (${os}/${arch}). Install man pages into ${INSTALL_MAN_DIR}."
-
-# Expected shape after you fill this in:
-# 1. Resolve latest tag / asset URL from releases (or use /latest/download/NAME).
-# 2. Download to a temp dir; verify checksum when you publish one.
-# 3. Install binary to ${INSTALL_BIN_DIR} (create dir; no needless sudo).
-# 4. Install man page(s) to ${INSTALL_MAN_DIR} (required).
-# 5. Print success and how to run: man ${PROJECT}
+echo "Done. Site: https://heartbox.f00.sh"

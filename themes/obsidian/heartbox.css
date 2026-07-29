@@ -1,0 +1,25 @@
+/* Heartbox — Obsidian CSS snippet */
+.theme-dark {
+  --background-primary: #1A1214;
+  --background-secondary: #22181B;
+  --background-modifier-border: #4A3A3E;
+  --text-normal: #F4EBE0;
+  --text-muted: #8A6E78;
+  --text-faint: #4A3A3E;
+  --text-accent: #E02030;
+  --text-accent-hover: #E86A9A;
+  --interactive-accent: #E02030;
+  --interactive-accent-hover: #E86A9A;
+  --code-normal: #5EC8E8;
+  --code-comment: #8A6E78;
+  --code-function: #5EC8E8;
+  --code-keyword: #E86A9A;
+  --code-string: #E8D45A;
+  --code-value: #E8924A;
+  --code-property: #5FBF4A;
+  --code-operator: #E86A9A;
+  --code-punctuation: #B8C0C8;
+  --text-highlight-bg: #3A2428;
+  --titlebar-background: #1A1214;
+  --tab-container-background: #1A1214;
+}

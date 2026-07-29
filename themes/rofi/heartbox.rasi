@@ -1,0 +1,31 @@
+/* Heartbox — rofi */
+* {
+  background: #1A1214;
+  background-alt: #2C1F22;
+  foreground: #F4EBE0;
+  selected: #E02030;
+  active: #5EC8E8;
+  urgent: #E8924A;
+  silver: #B8C0C8;
+}
+window {
+  background-color: @background;
+  border: 2px;
+  border-color: @silver;
+}
+mainbox { background-color: @background; }
+inputbar {
+  background-color: @background-alt;
+  text-color: @foreground;
+  padding: 8px;
+}
+listview { background-color: @background; }
+element {
+  background-color: @background;
+  text-color: @foreground;
+  padding: 6px;
+}
+element selected {
+  background-color: @selected;
+  text-color: @background;
+}

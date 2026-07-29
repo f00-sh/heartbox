@@ -1,0 +1,24 @@
+{
+  "name": "Heartbox",
+  "dark": true,
+  "author": "f00",
+  "editorScheme": "Heartbox",
+  "colors": {
+    "bg": "#1A1214",
+    "fg": "#F4EBE0",
+    "accent": "#E02030",
+    "metal": "#B8C0C8",
+    "sky": "#5EC8E8",
+    "poppy": "#E02030"
+  },
+  "ui": {
+    "*": {
+      "background": "#1A1214",
+      "foreground": "#F4EBE0",
+      "selectionBackground": "#3A2428",
+      "selectionForeground": "#F4EBE0",
+      "borderColor": "#4A3A3E",
+      "disabledForeground": "#8A6E78"
+    }
+  }
+}

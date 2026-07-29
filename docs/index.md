@@ -1,97 +1,30 @@
-# heartbox
+# Heartbox docs
 
-Heartbox — Technicolor dark theme from Nirvana Heart-Shaped Box video aesthetics; one palette, many apps
+Product site: [https://heartbox.f00.sh](https://heartbox.f00.sh)
 
-This page is the GitHub Pages entry for the project. Keep it in sync with
-[README.md](../README.md) and the man page(s) under [man/](../man/).
+## Surfaces
 
-## Why this project exists
+| Doc | Location |
+|-----|----------|
+| README | [../README.md](../README.md) |
+| Man page | [../man/heartbox.1.md](../man/heartbox.1.md) |
+| Palette | [../palette/heartbox.json](../palette/heartbox.json) |
+| Port template | [../themes/TEMPLATE.md](../themes/TEMPLATE.md) |
+| Changelog | [../CHANGELOG.md](../CHANGELOG.md) |
+| Scene card | [../file_id.diz](../file_id.diz) |
 
-Lead with purpose. State who it helps and what problem it solves.
-Use clear public narrative (NASA Stylebook + AP Style habits).
-Keep sentences short.
+## Documents (release pack)
 
-## Requirements
+On each SemVer release, attach:
 
-- other (document the supported toolchain and version)
+- NASA SOP PDF (ops for palette + ports + site deploy)
+- NASA release memo PDF (this version only)
 
-## Install
+Links appear on the GitHub Release and are mirrored here when published.
 
-Write install steps as procedures (Simplified Technical English).
-Every install method installs man page(s).
+## Aesthetic notes
 
-### Curl (releases)
-
-```text
-curl -fsSL https://github.com/theesfeld/heartbox/releases/latest/download/install.sh | sh
-```
-
-### Package managers
-
-List only channels this project offers (Arch/AUR, Homebrew, RPM, deb as chosen).
-Do not list packages that do not exist.
-
-### From source
-
-```text
-# Add from-source steps when useful for developers.
-```
-
-## Usage
-
-```text
-# Show the common commands a new user needs first.
-```
-
-See also the man page for full option reference.
-
-## Configuration
-
-Document flags, environment variables, and config files.
-Provide a `.env.example` when environment variables are required.
-Never commit real secrets.
-
-## Documentation set
-
-| Surface | Location |
-|---|---|
-| README | [README.md](../README.md) |
-| Man page(s) | [man/](../man/) |
-| This site | `docs/` (GitHub Pages) |
-| Changelog | [CHANGELOG.md](../CHANGELOG.md) |
-| Scene card | [file_id.diz](../file_id.diz) |
-| Security | [SECURITY.md](../SECURITY.md) |
-
-## Scene card
-
-Each SemVer release ships a crafted `file_id.diz` scene card (ACiD / 16colo.rs-style
-block ASCII). Keep this preview identical to the repository root file and to the
-GitHub Release asset named `file_id.diz`.
-
-```text
-╔══════════════════════════════════════════════════╗
-║▓▓▓▓░░░░  heartbox  ░░░░▓▓▓▓              ║
-║████████████████████████████████████████████████  ║
-║  ▄█▀  SCENE CARD  ▀█▄   release identity         ║
-║████████████████████████████████████████████████  ║
-║  v0.0.0  ·  MIT  ·  2026                     ║
-║  Heartbox — Technicolor dark theme from Nirvana Heart-Shaped Box video aesthetics; one palette, many apps                         ║
-║  github:theesfeld/heartbox          ║
-╚══════════════════════════════════════════════════╝
-```
-
-See [file_id.diz](../file_id.diz) and [CHANGELOG.md](../CHANGELOG.md).
-
-## Development
-
-See [CONTRIBUTING.md](../CONTRIBUTING.md).
-
-## Versioning
-
-This project uses [Semantic Versioning](https://semver.org/).
-See [CHANGELOG.md](../CHANGELOG.md).
-Every published version refreshes `file_id.diz` and attaches it to the GitHub Release.
-
-## License
-
-[MIT](../LICENSE) © William Theesfeld
+- Warm black base (`#1A1214`), not cool slate.
+- Poppy red (`#E02030`) is the only loud accent for focus/active states.
+- Silver (`#B8C0C8`) stays subtle: cursor, borders, punctuation.
+- Sky (`#5EC8E8`) for links/functions (verse); red for chorus emphasis.

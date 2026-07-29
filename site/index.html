@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Heartbox — one theme, every surface</title>
+  <meta name="description" content="Heartbox is a hand-tinted Technicolor dark theme: poppy red, verse-sky blue, hospital gloom, and cool silver metal. Ports for terminals, editors, and tools." />
+  <meta name="theme-color" content="#1A1214" />
+  <link rel="canonical" href="https://heartbox.f00.sh/" />
+  <meta property="og:title" content="Heartbox Theme" />
+  <meta property="og:description" content="Hand-tinted Technicolor dark theme. Poppy red · verse sky · silver metal. One palette, many apps." />
+  <meta property="og:url" content="https://heartbox.f00.sh/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231A1214'/%3E%3Cpath d='M16 26s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 24 15c0 5.8-8 11-8 11z' fill='%23E02030'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="field" aria-hidden="true">
+    <canvas id="poppies"></canvas>
+    <div class="tint"></div>
+    <div class="vignette"></div>
+  </div>
+
+  <header class="top">
+    <a class="brand" href="https://f00.sh/" rel="noopener">
+      <span class="brand-mark">f00</span>
+      <span class="brand-sub">/heartbox</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#palette">palette</a>
+      <a href="#ports">ports</a>
+      <a href="#install">install</a>
+      <a href="https://github.com/f00-sh/heartbox" rel="noopener">github</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <p class="eyebrow mono"><span class="dot" aria-hidden="true"></span> v0.1.0 · MIT · heartbox.f00.sh</p>
+      <h1>Heartbox</h1>
+      <p class="lede">
+        A dark theme that feels <em>hand-tinted</em> — poppy red over night soil,
+        verse-sky blue, chorus heat, anatomical pink, bruise purple, and a cool
+        <strong class="silver">silver</strong> metal accent.
+        One palette. Ports for terminals, editors, shells, bars, and tools.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://github.com/f00-sh/heartbox">get the theme</a>
+        <a class="btn ghost" href="#palette">see the colors</a>
+      </div>
+    </section>
+
+    <section class="panel" id="palette">
+      <header class="panel-head">
+        <h2>Palette</h2>
+        <span class="mono muted">canonical tokens</span>
+      </header>
+      <div class="swatches" id="swatches"></div>
+      <p class="hint">
+        Silver is intentional and subtle — cursor, chrome, punctuation —
+        the cool metal of a worn jacket against warm black.
+      </p>
+    </section>
+
+    <section class="panel" id="feel">
+      <header class="panel-head">
+        <h2>Feel</h2>
+      </header>
+      <ul class="feel-list mono">
+        <li>warm hospital-night blacks, never pure navy</li>
+        <li>hyper-real poppy red as hero accent</li>
+        <li>verse calm (sky) vs chorus heat (red)</li>
+        <li>cream foreground — not pure white</li>
+        <li>dusty mauve comments, soft focus</li>
+        <li>silver metal for edges and cursor only</li>
+      </ul>
+    </section>
+
+    <section class="panel" id="ports">
+      <header class="panel-head">
+        <h2>Ports</h2>
+        <span class="mono muted" id="port-count"></span>
+      </header>
+      <p class="lede-sm">
+        Built-in ports ship in-repo under <code>themes/</code>. More apps welcome —
+        follow <code>themes/TEMPLATE.md</code>.
+      </p>
+      <div class="port-grid" id="ports-grid"></div>
+    </section>
+
+    <section class="panel" id="install">
+      <header class="panel-head">
+        <h2>Install</h2>
+      </header>
+      <div class="install-block mono">
+        <p># clone</p>
+        <pre>git clone https://github.com/f00-sh/heartbox.git
+cd heartbox</pre>
+        <p># pick a port</p>
+        <pre>ls themes/
+# e.g. kitty:
+cp themes/kitty/heartbox.conf ~/.config/kitty/themes/
+# include or load per app README / themes/TEMPLATE.md</pre>
+        <p># regenerate ports from palette (maintainers)</p>
+        <pre>python3 scripts/generate-themes.py</pre>
+      </div>
+      <p class="hint">
+        Canonical source of truth: <code>palette/heartbox.json</code>
+        (+ CSS / TOML / YAML / SCSS).
+      </p>
+    </section>
+
+    <section class="panel" id="docs">
+      <header class="panel-head">
+        <h2>Documents</h2>
+      </header>
+      <ul class="docs-list">
+        <li><a href="https://github.com/f00-sh/heartbox/blob/main/README.md">README</a></li>
+        <li><a href="https://github.com/f00-sh/heartbox/blob/main/man/heartbox.1.md">man page</a></li>
+        <li><a href="https://github.com/f00-sh/heartbox/blob/main/CHANGELOG.md">CHANGELOG</a></li>
+        <li><a href="https://github.com/f00-sh/heartbox/blob/main/docs/index.md">docs/</a></li>
+        <li class="muted">SOP PDF &amp; release memo — attached on GitHub Releases</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span class="mono">© f00 · MIT · original palette work</span>
+    <a class="mono muted" href="https://f00.sh/">f00.sh</a>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

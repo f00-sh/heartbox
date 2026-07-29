@@ -1,0 +1,23 @@
+{
+  "name": "Heartbox",
+  "background": "#1A1214",
+  "foreground": "#F4EBE0",
+  "cursorColor": "#B8C0C8",
+  "selectionBackground": "#3A2428",
+  "black": "#1A1214",
+  "red": "#E02030",
+  "green": "#5FBF4A",
+  "yellow": "#E8D45A",
+  "blue": "#5EC8E8",
+  "purple": "#E86A9A",
+  "cyan": "#5EC8E8",
+  "white": "#F4EBE0",
+  "brightBlack": "#4A3A3E",
+  "brightRed": "#FF4A58",
+  "brightGreen": "#7AD964",
+  "brightYellow": "#F0E47A",
+  "brightBlue": "#7AD8F0",
+  "brightPurple": "#F08BB0",
+  "brightCyan": "#8AE0F5",
+  "brightWhite": "#FFF8F0"
+}

@@ -1,0 +1,31 @@
+# Heartbox — yazi (flavor fragment)
+[mgr]
+cwd = { fg = "#5EC8E8" }
+hovered = { fg = "#F4EBE0", bg = "#3A2428" }
+preview_hovered = { underline = true }
+find_keyword = { fg = "#E8D45A", bold = true }
+find_position = { fg = "#E86A9A", bg = "reset", bold = true }
+marker_copied = { fg = "#5FBF4A", bg = "#5FBF4A" }
+marker_cut = { fg = "#E02030", bg = "#E02030" }
+marker_selected = { fg = "#E8D45A", bg = "#E8D45A" }
+count_copied = { fg = "#1A1214", bg = "#5FBF4A" }
+count_cut = { fg = "#1A1214", bg = "#E02030" }
+count_selected = { fg = "#1A1214", bg = "#E8D45A" }
+border_symbol = "│"
+border_style = { fg = "#B8C0C8" }
+
+[status]
+separator_open = ""
+separator_close = ""
+separator_style = { fg = "#2C1F22", bg = "#2C1F22" }
+mode_normal = { fg = "#1A1214", bg = "#E02030", bold = true }
+mode_select = { fg = "#1A1214", bg = "#E8D45A", bold = true }
+mode_unset = { fg = "#1A1214", bg = "#E86A9A", bold = true }
+progress_label = { bold = true }
+progress_normal = { fg = "#5EC8E8", bg = "#1A1214" }
+progress_error = { fg = "#E02030", bg = "#1A1214" }
+permissions_t = { fg = "#5FBF4A" }
+permissions_r = { fg = "#E8D45A" }
+permissions_w = { fg = "#E02030" }
+permissions_x = { fg = "#5EC8E8" }
+permissions_s = { fg = "#B8C0C8" }

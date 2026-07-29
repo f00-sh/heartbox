@@ -6,7 +6,8 @@
 
 - Site: https://heartbox.f00.sh
 - Repo: f00-sh/heartbox (org: **f00-sh**)
-- Hub: https://f00.sh (product card after first release)
+- Hub: https://f00.sh (released product card)
+- **f00 default brand theme:** hub + every product site load Heartbox colors via `https://f00.sh/theme/f00-theme-13.css`
 
 ## Declared language
 
@@ -22,11 +23,19 @@
 1. **One palette, many ports.** All app themes derive from `palette/heartbox.json`. Do not invent one-off hex values in ports.
 2. **Feel over copy.** Warm hospital-night blacks, poppy red hero accent, verse-sky blue, cream foreground, **subtle silver metal** (cursor/chrome/punctuation). Not a cool-navy IDE theme.
 3. **Silver is required.** Kurt-jacket cool metal `#B8C0C8` appears in every port that has a cursor or border token.
-4. **Hub card on release.** First SemVer release earns a product card on https://f00.sh. Update card when copy or links change.
-5. **Public copy is product-only.** Aesthetic inspiration only — no agent process, DNS wiring, or rights-holder drama on the site.
-6. **Cloudflare is delivery.** Pages project `f00-heartbox` → `heartbox.f00.sh`. No GitHub Pages for product site.
-7. **MIT.** No secrets in repo.
-8. **Documentation pack** on every release (NASA SOP PDF, this-version memo PDF, CHANGELOG, README, Pages, man, file_id.diz).
+4. **f00 default theme.** `palette/heartbox.json` is the only brand color source for f00. Hub ships it as `site/theme/f00-theme-*.css` on https://f00.sh. Product sites load that CSS first; they do not invent brand hex.
+5. **Hub card.** Catalog `status=released` in f00-sh/f00 `site/catalog.json`. Update card when copy or links change.
+6. **Public copy is product-only.** Aesthetic inspiration only — no agent process, DNS wiring, or rights-holder drama on the site.
+7. **Cloudflare is delivery.** Pages project `f00-heartbox` → `heartbox.f00.sh`. No GitHub Pages for product site.
+8. **MIT.** No secrets in repo.
+9. **Documentation pack** on every release (NASA SOP PDF, this-version memo PDF, CHANGELOG, README, Pages, man, file_id.diz).
+
+## f00 membership
+
+- Org: `f00-sh`
+- Catalog SSOT: https://f00.sh/catalog.json (`f00` repo `site/catalog.json`)
+- Theme: https://f00.sh/theme/f00-theme-13.css (Heartbox palette — do not redefine brand colors/fonts)
+- Card on hub: `status=released` after a real release
 
 ## Layout
 

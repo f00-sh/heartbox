@@ -20,8 +20,8 @@ const PORTS = [
   "iterm", "xresources", "tmux", "warp", "hyper", "vim", "neovim", "helix",
   "emacs", "sublime", "vscode", "zed", "jetbrains", "nano", "kakoune",
   "bat", "fzf", "rofi", "dunst", "slack", "starship", "btop", "lsd",
-  "delta", "lazygit", "gitui", "yazi", "k9s", "waybar", "hyprland", "i3",
-  "polybar", "zellij", "fish", "zsh-syntax", "obsidian", "base16", "cava",
+  "delta", "lazygit", "gitui", "yazi", "k9s", "waybar", "hyprland", "noctalia",
+  "i3", "polybar", "zellij", "fish", "zsh-syntax", "obsidian", "base16", "cava",
   "css", "json", "yaml", "toml",
 ];
 

@@ -7,6 +7,7 @@ and a cool **silver** metal accent.
 - **Site:** https://heartbox.f00.sh
 - **Repo:** https://github.com/f00-sh/heartbox
 - **Hub:** https://f00.sh
+- **Role:** default f00 brand theme (hub + all product sites via `https://f00.sh/theme/f00-theme-13.css`)
 - **License:** MIT
 
 ## Palette
@@ -59,6 +60,11 @@ cp themes/neovim/heartbox.lua ~/.config/nvim/colors/
 
 # fzf
 source themes/fzf/heartbox.sh
+
+# Noctalia (desktop shell palette)
+mkdir -p ~/.config/noctalia/palettes
+cp themes/noctalia/heartbox.json ~/.config/noctalia/palettes/Heartbox.json
+# then [theme] source = "custom", custom_palette = "Heartbox"
 ```
 
 Full port list and rules: [`themes/TEMPLATE.md`](themes/TEMPLATE.md).
@@ -73,7 +79,7 @@ Installs man page(s) when present on the release; theme files live in the repo t
 
 ## Ports (shipped)
 
-alacritty · kitty · wezterm · ghostty · foot · windows-terminal · iterm · xresources · tmux · warp · hyper · vim · neovim · helix · emacs · sublime · vscode · zed · jetbrains · nano · kakoune · bat · fzf · rofi · dunst · slack · starship · btop · lsd · delta · lazygit · gitui · yazi · k9s · waybar · hyprland · i3 · polybar · zellij · fish · zsh-syntax · obsidian · base16 · cava · css · json · yaml · toml
+alacritty · kitty · wezterm · ghostty · foot · windows-terminal · iterm · xresources · tmux · warp · hyper · vim · neovim · helix · emacs · sublime · vscode · zed · jetbrains · nano · kakoune · bat · fzf · rofi · dunst · slack · starship · btop · lsd · delta · lazygit · gitui · yazi · k9s · waybar · hyprland · noctalia · i3 · polybar · zellij · fish · zsh-syntax · obsidian · base16 · cava · css · json · yaml · toml
 
 Want another app? Open a PR with a folder under `themes/` following the template. Prefer regenerating shared formats via:
 

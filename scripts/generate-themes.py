@@ -1397,6 +1397,141 @@ def gen_tools() -> None:
         ),
     )
     write(
+        "themes/noctalia/heartbox.json",
+        json.dumps(
+            {
+                "dark": {
+                    "mPrimary": hx("red"),
+                    "mOnPrimary": hx("foreground"),
+                    "mSecondary": hx("sky"),
+                    "mOnSecondary": hx("background"),
+                    "mTertiary": hx("pink"),
+                    "mOnTertiary": hx("background"),
+                    "mError": hx("red"),
+                    "mOnError": hx("foreground"),
+                    "mSurface": hx("background"),
+                    "mOnSurface": hx("foreground"),
+                    "mSurfaceVariant": hx("current_line"),
+                    "mOnSurfaceVariant": hx("comment"),
+                    "mOutline": hx("silver"),
+                    "mShadow": hx("background"),
+                    "mHover": hx("selection"),
+                    "mOnHover": hx("foreground"),
+                    "terminal": {
+                        "background": hx("background"),
+                        "foreground": hx("foreground"),
+                        "cursor": hx("silver"),
+                        "cursorText": hx("background"),
+                        "selectionBg": hx("selection"),
+                        "selectionFg": hx("foreground"),
+                        "normal": {
+                            "black": A["black"],
+                            "red": A["red"],
+                            "green": A["green"],
+                            "yellow": A["yellow"],
+                            "blue": A["blue"],
+                            "magenta": A["magenta"],
+                            "cyan": A["cyan"],
+                            "white": A["white"],
+                        },
+                        "bright": {
+                            "black": A["bright_black"],
+                            "red": A["bright_red"],
+                            "green": A["bright_green"],
+                            "yellow": A["bright_yellow"],
+                            "blue": A["bright_blue"],
+                            "magenta": A["bright_magenta"],
+                            "cyan": A["bright_cyan"],
+                            "white": A["bright_white"],
+                        },
+                    },
+                },
+                "light": {
+                    "mPrimary": hx("red"),
+                    "mOnPrimary": hx("bright_white"),
+                    "mSecondary": hx("sky"),
+                    "mOnSecondary": hx("background"),
+                    "mTertiary": hx("pink"),
+                    "mOnTertiary": hx("background"),
+                    "mError": hx("red"),
+                    "mOnError": hx("bright_white"),
+                    "mSurface": hx("bright_white"),
+                    "mOnSurface": hx("background"),
+                    "mSurfaceVariant": hx("foreground"),
+                    "mOnSurfaceVariant": hx("bright_black"),
+                    "mOutline": hx("silver"),
+                    "mShadow": hx("background"),
+                    "mHover": hx("red"),
+                    "mOnHover": hx("bright_white"),
+                    "terminal": {
+                        "background": hx("bright_white"),
+                        "foreground": hx("background"),
+                        "cursor": hx("silver"),
+                        "cursorText": hx("bright_white"),
+                        "selectionBg": hx("selection"),
+                        "selectionFg": hx("foreground"),
+                        "normal": {
+                            "black": A["black"],
+                            "red": A["red"],
+                            "green": A["green"],
+                            "yellow": A["yellow"],
+                            "blue": A["blue"],
+                            "magenta": A["magenta"],
+                            "cyan": A["cyan"],
+                            "white": A["white"],
+                        },
+                        "bright": {
+                            "black": A["bright_black"],
+                            "red": A["bright_red"],
+                            "green": A["bright_green"],
+                            "yellow": A["bright_yellow"],
+                            "blue": A["bright_blue"],
+                            "magenta": A["bright_magenta"],
+                            "cyan": A["bright_cyan"],
+                            "white": A["bright_white"],
+                        },
+                    },
+                },
+            },
+            indent=2,
+        )
+        + "\n",
+    )
+    write(
+        "themes/noctalia/README.md",
+        textwrap.dedent(
+            """\
+            # Heartbox — Noctalia
+
+            Custom palette for [Noctalia](https://noctalia.dev) (v5 palette JSON).
+
+            ## Install
+
+            ```bash
+            mkdir -p ~/.config/noctalia/palettes
+            cp themes/noctalia/heartbox.json ~/.config/noctalia/palettes/Heartbox.json
+            ```
+
+            Then in Noctalia config (`~/.config/noctalia/*.toml`):
+
+            ```toml
+            [theme]
+            mode           = "dark"
+            source         = "custom"
+            custom_palette = "Heartbox"
+            ```
+
+            Or pick **custom → Heartbox** in Settings → Theme / Color scheme.
+
+            Dark mode is the canonical hospital-night Heartbox look (poppy red primary,
+            verse-sky secondary, silver outline/cursor). Light mode inverts surfaces onto
+            cream/peak-white while keeping the same accents.
+
+            Regenerated from `palette/heartbox.json` via `python3 scripts/generate-themes.py`.
+            """
+        ),
+    )
+    write(
         "themes/hyprland/heartbox.conf",
         textwrap.dedent(
             f"""\

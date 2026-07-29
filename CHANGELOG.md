@@ -1,3 +1,10 @@
+## [0.2.1] - 2026-07-29
+
+### Changed
+
+- Palette vision-locked from Heart-Shaped Box video frames (pure verse sky `#2096EE`, chorus blood `#C50A1B`, hospital charcoal `#090909`).
+- All app ports regenerated; f00 shared CSS tracks this version.
+
 ## [0.2.0] - 2026-07-29
 
 ### Changed

@@ -1,32 +1,32 @@
 # Heartbox — Alacritty
 [colors.primary]
-background = "#191413"
-foreground = "#E8E4DC"
+background = "#090909"
+foreground = "#EDE6DE"
 
 [colors.cursor]
-text = "#191413"
-cursor = "#C2C8CC"
+text = "#090909"
+cursor = "#B8BEC2"
 
 [colors.selection]
-text = "#E8E4DC"
-background = "#4B1006"
+text = "#EDE6DE"
+background = "#56180A"
 
 [colors.normal]
-black = "#191413"
-red = "#E5141A"
-green = "#5A8A42"
-yellow = "#D4B84A"
-blue = "#0888ED"
-magenta = "#C97A86"
-cyan = "#47B0F6"
-white = "#E8E4DC"
+black = "#090909"
+red = "#C50A1B"
+green = "#5A8A3A"
+yellow = "#D4A83A"
+blue = "#2096EE"
+magenta = "#C47A72"
+cyan = "#4AADF5"
+white = "#EDE6DE"
 
 [colors.bright]
-black = "#3D2F2D"
-red = "#F53A42"
+black = "#3A3232"
+red = "#E81420"
 green = "#7AAD58"
-yellow = "#E8D46A"
-blue = "#5CB4F0"
-magenta = "#E09AA6"
+yellow = "#E8C85A"
+blue = "#4AADF5"
+magenta = "#E09A94"
 cyan = "#7AC4F8"
-white = "#F2EFE8"
+white = "#F5F1EA"

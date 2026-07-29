@@ -1,8 +1,8 @@
 ## Heartbox — nano
-set titlecolor bold,#E8E4DC,#3D2F2D
-set statuscolor bold,#E8E4DC,#3D2F2D
-set selectedcolor bold,#E8E4DC,#4B1006
-set numbercolor #3D2F2D,#191413
-set keycolor #0888ED,#191413
-set functioncolor #C97A86,#191413
-set scrollercolor #C2C8CC,#191413
+set titlecolor bold,#EDE6DE,#1C1617
+set statuscolor bold,#EDE6DE,#1C1617
+set selectedcolor bold,#EDE6DE,#56180A
+set numbercolor #3A3232,#090909
+set keycolor #2096EE,#090909
+set functioncolor #C47A72,#090909
+set scrollercolor #B8BEC2,#090909

@@ -6,19 +6,19 @@ Copy this checklist when adding an app under `themes/<app>/`.
 
 | Token | Hex | Use |
 |---|---|---|
-| background | `#191413` | app chrome, editor bg |
-| current_line | `#3D2F2D` | line highlight, panels |
-| selection | `#4B1006` | selection |
-| foreground | `#E8E4DC` | primary text |
-| comment | `#7A656A` | comments, muted |
-| sky | `#0888ED` | functions, types, links (verse blue) |
-| green | `#5A8A42` | strings alt, classes, success |
-| orange | `#EA5638` | numbers, warnings |
-| pink | `#C97A86` | keywords |
-| purple | `#6B4A58` | constants, builtins |
-| red | `#E5141A` | poppy accent, errors, tags |
-| yellow | `#D4B84A` | strings |
-| **silver** | `#C2C8CC` | **cursor, chrome, punctuation — Kurt jacket metal** |
+| background | `#090909` | app chrome, editor bg |
+| current_line | `#1C1617` | line highlight, panels |
+| selection | `#56180A` | selection |
+| foreground | `#EDE6DE` | primary text |
+| comment | `#8A7874` | comments, muted |
+| sky | `#2096EE` | functions, types, links (verse blue) |
+| green | `#5A8A3A` | strings alt, classes, success |
+| orange | `#C45A20` | numbers, warnings |
+| pink | `#C47A72` | keywords |
+| purple | `#454B93` | constants, builtins |
+| red | `#C50A1B` | poppy accent, errors, tags |
+| yellow | `#D4A83A` | strings |
+| **silver** | `#B8BEC2` | **cursor, chrome, punctuation — Kurt jacket metal** |
 
 ## Feel rules
 
@@ -26,7 +26,7 @@ Copy this checklist when adding an app under `themes/<app>/`.
 2. Poppy red is the hero accent (active tab, focus ring, mode indicator).
 3. Silver is subtle: cursor and borders, not loud fills.
 4. Sky blue for “verse” calm tokens (functions/links); red for “chorus” emphasis.
-5. Prefer cream foreground `#E8E4DC` over pure white.
+5. Prefer cream foreground `#EDE6DE` over pure white.
 
 ## Files
 

@@ -1,91 +1,91 @@
 {
   "name": "Heartbox",
   "globals": {
-    "background": "#191413",
-    "foreground": "#E8E4DC",
-    "caret": "#C2C8CC",
-    "line_highlight": "#3D2F2D",
-    "selection": "#4B1006",
-    "selection_border": "#3D2F2D",
-    "inactive_selection": "#3D2F2D",
-    "find_highlight": "#D4B84A",
-    "find_highlight_foreground": "#191413",
+    "background": "#090909",
+    "foreground": "#EDE6DE",
+    "caret": "#B8BEC2",
+    "line_highlight": "#1C1617",
+    "selection": "#56180A",
+    "selection_border": "#3A3232",
+    "inactive_selection": "#1C1617",
+    "find_highlight": "#D4A83A",
+    "find_highlight_foreground": "#090909",
     "brackets_options": "underline",
-    "brackets_foreground": "#E5141A",
+    "brackets_foreground": "#C50A1B",
     "tags_options": "stippled_underline",
-    "tags_foreground": "#C97A86",
-    "guide": "#3D2F2D",
-    "active_guide": "#C2C8CC",
-    "gutter": "#191413",
-    "gutter_foreground": "#3D2F2D"
+    "tags_foreground": "#C47A72",
+    "guide": "#3A3232",
+    "active_guide": "#B8BEC2",
+    "gutter": "#090909",
+    "gutter_foreground": "#3A3232"
   },
   "rules": [
     {
       "name": "Comment",
       "scope": "comment",
-      "foreground": "#7A656A",
+      "foreground": "#8A7874",
       "font_style": "italic"
     },
     {
       "name": "String",
       "scope": "string",
-      "foreground": "#D4B84A"
+      "foreground": "#D4A83A"
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
-      "foreground": "#EA5638"
+      "foreground": "#C45A20"
     },
     {
       "name": "Keyword",
       "scope": "keyword",
-      "foreground": "#C97A86"
+      "foreground": "#C47A72"
     },
     {
       "name": "Storage",
       "scope": "storage",
-      "foreground": "#C97A86"
+      "foreground": "#C47A72"
     },
     {
       "name": "Function",
       "scope": "entity.name.function, support.function",
-      "foreground": "#0888ED"
+      "foreground": "#2096EE"
     },
     {
       "name": "Class",
       "scope": "entity.name.class, entity.name.type",
-      "foreground": "#5A8A42"
+      "foreground": "#5A8A3A"
     },
     {
       "name": "Constant",
       "scope": "constant",
-      "foreground": "#6B4A58"
+      "foreground": "#454B93"
     },
     {
       "name": "Variable",
       "scope": "variable",
-      "foreground": "#E8E4DC"
+      "foreground": "#EDE6DE"
     },
     {
       "name": "Tag",
       "scope": "entity.name.tag",
-      "foreground": "#E5141A"
+      "foreground": "#C50A1B"
     },
     {
       "name": "Attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#5A8A42"
+      "foreground": "#5A8A3A"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation",
-      "foreground": "#C2C8CC"
+      "foreground": "#B8BEC2"
     },
     {
       "name": "Invalid",
       "scope": "invalid",
-      "foreground": "#E8E4DC",
-      "background": "#E5141A"
+      "foreground": "#EDE6DE",
+      "background": "#C50A1B"
     }
   ]
 }

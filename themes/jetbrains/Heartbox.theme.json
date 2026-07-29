@@ -4,21 +4,21 @@
   "author": "f00",
   "editorScheme": "Heartbox",
   "colors": {
-    "bg": "#191413",
-    "fg": "#E8E4DC",
-    "accent": "#E5141A",
-    "metal": "#C2C8CC",
-    "sky": "#0888ED",
-    "poppy": "#E5141A"
+    "bg": "#090909",
+    "fg": "#EDE6DE",
+    "accent": "#C50A1B",
+    "metal": "#B8BEC2",
+    "sky": "#2096EE",
+    "poppy": "#C50A1B"
   },
   "ui": {
     "*": {
-      "background": "#191413",
-      "foreground": "#E8E4DC",
-      "selectionBackground": "#4B1006",
-      "selectionForeground": "#E8E4DC",
-      "borderColor": "#3A2C30",
-      "disabledForeground": "#7A656A"
+      "background": "#090909",
+      "foreground": "#EDE6DE",
+      "selectionBackground": "#56180A",
+      "selectionForeground": "#EDE6DE",
+      "borderColor": "#3A3232",
+      "disabledForeground": "#8A7874"
     }
   }
 }

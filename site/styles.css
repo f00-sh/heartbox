@@ -1,20 +1,20 @@
 /* Heartbox product site — HSB palette · Bleach catalog boxes */
 :root {
-  --hb-bg: #191413;
-  --hb-bg-alt: #3D2F2D;
-  --hb-selection: #4B1006;
-  --hb-fg: #E8E4DC;
-  --hb-comment: #7A656A;
-  --hb-sky: #0888ED;
-  --hb-green: #5A8A42;
-  --hb-orange: #EA5638;
-  --hb-pink: #C97A86;
-  --hb-purple: #6B4A58;
-  --hb-red: #E5141A;
-  --hb-yellow: #D4B84A;
-  --hb-silver: #C2C8CC;
-  --hb-dim: #3D2F2D;
-  --hb-panel: #1A1315;
+  --hb-bg: #090909;
+  --hb-bg-alt: #1C1617;
+  --hb-selection: #56180A;
+  --hb-fg: #EDE6DE;
+  --hb-comment: #8A7874;
+  --hb-sky: #2096EE;
+  --hb-green: #5A8A3A;
+  --hb-orange: #C45A20;
+  --hb-pink: #C47A72;
+  --hb-purple: #454B93;
+  --hb-red: #C50A1B;
+  --hb-yellow: #D4A83A;
+  --hb-silver: #B8BEC2;
+  --hb-dim: #3A3232;
+  --hb-panel: #141011;
   --font: ui-monospace, "Cascadia Code", "SF Mono", Menlo, Consolas, monospace;
   --sans: system-ui, "Segoe UI", Roboto, sans-serif;
   --max: 52rem;

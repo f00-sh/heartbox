@@ -1,10 +1,10 @@
 {
   "name": "Heartbox",
   "colors": {
-    "background": "#1A1214",
-    "foreground": "#F4EBE0",
-    "accent": "#E02030",
-    "secondary": "#5EC8E8",
-    "metal": "#B8C0C8"
+    "background": "#191413",
+    "foreground": "#E8E4DC",
+    "accent": "#E5141A",
+    "secondary": "#0888ED",
+    "metal": "#C2C8CC"
   }
 }

@@ -1,25 +1,25 @@
 /* Heartbox — Obsidian CSS snippet */
 .theme-dark {
-  --background-primary: #1A1214;
-  --background-secondary: #22181B;
-  --background-modifier-border: #4A3A3E;
-  --text-normal: #F4EBE0;
-  --text-muted: #8A6E78;
-  --text-faint: #4A3A3E;
-  --text-accent: #E02030;
-  --text-accent-hover: #E86A9A;
-  --interactive-accent: #E02030;
-  --interactive-accent-hover: #E86A9A;
-  --code-normal: #5EC8E8;
-  --code-comment: #8A6E78;
-  --code-function: #5EC8E8;
-  --code-keyword: #E86A9A;
-  --code-string: #E8D45A;
-  --code-value: #E8924A;
-  --code-property: #5FBF4A;
-  --code-operator: #E86A9A;
-  --code-punctuation: #B8C0C8;
-  --text-highlight-bg: #3A2428;
-  --titlebar-background: #1A1214;
-  --tab-container-background: #1A1214;
+  --background-primary: #191413;
+  --background-secondary: #1A1315;
+  --background-modifier-border: #3A2C30;
+  --text-normal: #E8E4DC;
+  --text-muted: #7A656A;
+  --text-faint: #3D2F2D;
+  --text-accent: #E5141A;
+  --text-accent-hover: #C97A86;
+  --interactive-accent: #E5141A;
+  --interactive-accent-hover: #C97A86;
+  --code-normal: #0888ED;
+  --code-comment: #7A656A;
+  --code-function: #0888ED;
+  --code-keyword: #C97A86;
+  --code-string: #D4B84A;
+  --code-value: #EA5638;
+  --code-property: #5A8A42;
+  --code-operator: #C97A86;
+  --code-punctuation: #C2C8CC;
+  --text-highlight-bg: #4B1006;
+  --titlebar-background: #191413;
+  --tab-container-background: #191413;
 }

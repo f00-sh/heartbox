@@ -1,16 +1,16 @@
 // Heartbox — Zellij
 themes {
     heartbox {
-        fg "#F4EBE0"
-        bg "#1A1214"
-        black "#1A1214"
-        red "#E02030"
-        green "#5FBF4A"
-        yellow "#E8D45A"
-        blue "#5EC8E8"
-        magenta "#E86A9A"
-        cyan "#5EC8E8"
-        white "#F4EBE0"
-        orange "#E8924A"
+        fg "#E8E4DC"
+        bg "#191413"
+        black "#191413"
+        red "#E5141A"
+        green "#5A8A42"
+        yellow "#D4B84A"
+        blue "#0888ED"
+        magenta "#C97A86"
+        cyan "#47B0F6"
+        white "#E8E4DC"
+        orange "#EA5638"
     }
 }

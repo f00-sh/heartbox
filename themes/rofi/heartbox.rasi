@@ -1,12 +1,12 @@
 /* Heartbox — rofi */
 * {
-  background: #1A1214;
-  background-alt: #2C1F22;
-  foreground: #F4EBE0;
-  selected: #E02030;
-  active: #5EC8E8;
-  urgent: #E8924A;
-  silver: #B8C0C8;
+  background: #191413;
+  background-alt: #3D2F2D;
+  foreground: #E8E4DC;
+  selected: #E5141A;
+  active: #0888ED;
+  urgent: #EA5638;
+  silver: #C2C8CC;
 }
 window {
   background-color: @background;

@@ -1,29 +1,29 @@
 # Heartbox — WezTerm (include via config)
 [colors]
-foreground = "#F4EBE0"
-background = "#1A1214"
-cursor_bg = "#B8C0C8"
-cursor_fg = "#1A1214"
-cursor_border = "#B8C0C8"
-selection_fg = "#F4EBE0"
-selection_bg = "#3A2428"
+foreground = "#E8E4DC"
+background = "#191413"
+cursor_bg = "#C2C8CC"
+cursor_fg = "#191413"
+cursor_border = "#C2C8CC"
+selection_fg = "#E8E4DC"
+selection_bg = "#4B1006"
 ansi = [
-  "#1A1214",
-  "#E02030",
-  "#5FBF4A",
-  "#E8D45A",
-  "#5EC8E8",
-  "#E86A9A",
-  "#5EC8E8",
-  "#F4EBE0",
+  "#191413",
+  "#E5141A",
+  "#5A8A42",
+  "#D4B84A",
+  "#0888ED",
+  "#C97A86",
+  "#47B0F6",
+  "#E8E4DC",
 ]
 brights = [
-  "#4A3A3E",
-  "#FF4A58",
-  "#7AD964",
-  "#F0E47A",
-  "#7AD8F0",
-  "#F08BB0",
-  "#8AE0F5",
-  "#FFF8F0",
+  "#3D2F2D",
+  "#F53A42",
+  "#7AAD58",
+  "#E8D46A",
+  "#5CB4F0",
+  "#E09AA6",
+  "#7AC4F8",
+  "#F2EFE8",
 ]

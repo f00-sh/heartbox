@@ -1,6 +1,6 @@
 # Heartbox — fzf
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
-  --color=bg+:#2C1F22,bg:#1A1214,spinner:#5EC8E8,hl:#E02030 \
-  --color=fg:#F4EBE0,header:#E02030,info:#B8C0C8,pointer:#E86A9A \
-  --color=marker:#5FBF4A,fg+:#F4EBE0,prompt:#E86A9A,hl+:#E8D45A \
-  --color=border:#4A3A3E"
+  --color=bg+:#3D2F2D,bg:#191413,spinner:#0888ED,hl:#E5141A \
+  --color=fg:#E8E4DC,header:#E5141A,info:#C2C8CC,pointer:#C97A86 \
+  --color=marker:#5A8A42,fg+:#E8E4DC,prompt:#C97A86,hl+:#D4B84A \
+  --color=border:#3D2F2D"

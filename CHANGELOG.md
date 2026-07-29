@@ -1,3 +1,11 @@
+## [0.2.0] - 2026-07-29
+
+### Changed
+
+- Palette resampled from Heart-Shaped Box video frames (verse sky `#0888ED`, poppy `#E5141A`, hospital-night `#191413`, silver metal).
+- Regenerated all application ports from `palette/heartbox.json`.
+- Shared f00 brand CSS tracks this palette at `https://f00.sh/theme/f00-theme.css`.
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -12,6 +20,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Noctalia port (`themes/noctalia/`) — custom palette JSON for Noctalia v5 shell
 
 ## Unreleased
+
+### Note
+
+Released as 0.2.0 below.
+
+### Changed
+
+- Palette resampled from Heart-Shaped Box video frames (verse sky `#0888ED`, poppy `#E5141A`, hospital-night `#191413`, silver metal).
+- Regenerated all application ports from `palette/heartbox.json`.
+- Shared f00 brand CSS tracks this palette at `https://f00.sh/theme/f00-theme.css`.
+
+
 
 ### Changed
 

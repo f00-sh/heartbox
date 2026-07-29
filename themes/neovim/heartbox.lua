@@ -1,20 +1,20 @@
 -- Heartbox — Neovim (Lua colorscheme)
 -- place as colors/heartbox.lua or require and apply
 local c = {
-  bg = "#1A1214",
-  bg_alt = "#2C1F22",
-  sel = "#3A2428",
-  fg = "#F4EBE0",
-  comment = "#8A6E78",
-  sky = "#5EC8E8",
-  green = "#5FBF4A",
-  orange = "#E8924A",
-  pink = "#E86A9A",
-  purple = "#7A5A9E",
-  red = "#E02030",
-  yellow = "#E8D45A",
-  silver = "#B8C0C8",
-  dim = "#4A3A3E",
+  bg = "#191413",
+  bg_alt = "#3D2F2D",
+  sel = "#4B1006",
+  fg = "#E8E4DC",
+  comment = "#7A656A",
+  sky = "#0888ED",
+  green = "#5A8A42",
+  orange = "#EA5638",
+  pink = "#C97A86",
+  purple = "#6B4A58",
+  red = "#E5141A",
+  yellow = "#D4B84A",
+  silver = "#C2C8CC",
+  dim = "#3D2F2D",
 }
 
 vim.cmd("hi clear")

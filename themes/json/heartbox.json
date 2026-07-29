@@ -1,9 +1,9 @@
 {
   "name": "Heartbox",
   "author": "f00",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
-  "description": "Hand-tinted Technicolor dark theme — poppy fields, hospital gloom, verse-sky blue, chorus red, and a cool silver like a worn metal jacket.",
+  "description": "Hand-tinted Technicolor dark theme sampled from the Heart-Shaped Box video treatment — verse sky, chorus blood, hospital-night soil, flesh dust, and cool silver metal.",
   "aesthetic": {
     "feel": [
       "hand-tinted Technicolor over black-and-white",
@@ -13,130 +13,137 @@
       "subtle cool silver metal accent",
       "hospital-room blacks with warm dust"
     ],
-    "inspiration": "Color and atmosphere of the 1993 Heart-Shaped Box music video treatment (hand-painted Technicolor, poppy field, sky/box color shifts). Original work; not affiliated with the band or video rights holders."
+    "inspiration": "Color sampled from frames of the 1993 Heart-Shaped Box music video treatment (hand-painted Technicolor, poppy field, sky/box color shifts). Original palette work; not affiliated with the band or video rights holders.",
+    "source_method": "k-means on frames of local source video + hand curation for UI roles"
   },
   "colors": {
     "background": {
-      "hex": "#1A1214",
-      "rgb": [26, 18, 20],
-      "hsl": [348, 18, 9],
-      "role": "Hospital-night underpaint; deep warm black"
+      "hex": "#191413",
+      "rgb": [25, 20, 19],
+      "hsl": [12, 14, 9],
+      "role": "Hospital-night underpaint; deep warm black from video soil"
     },
     "current_line": {
-      "hex": "#2C1F22",
-      "rgb": [44, 31, 34],
-      "hsl": [346, 17, 15],
+      "hex": "#3D2F2D",
+      "rgb": [61, 47, 45],
+      "hsl": [9, 15, 21],
       "role": "Surface / line highlight"
     },
     "selection": {
-      "hex": "#3A2428",
-      "rgb": [58, 36, 40],
-      "hsl": [349, 23, 18],
-      "role": "Selection background"
+      "hex": "#4B1006",
+      "rgb": [75, 16, 6],
+      "hsl": [9, 85, 16],
+      "role": "Blood-soil selection background"
     },
     "foreground": {
-      "hex": "#F4EBE0",
-      "rgb": [244, 235, 224],
-      "hsl": [33, 48, 92],
+      "hex": "#E8E4DC",
+      "rgb": [232, 228, 220],
+      "hsl": [40, 21, 89],
       "role": "Hand-tinted cream light"
     },
     "comment": {
-      "hex": "#8A6E78",
-      "rgb": [138, 110, 120],
-      "hsl": [339, 11, 49],
+      "hex": "#7A656A",
+      "rgb": [122, 101, 106],
+      "hsl": [346, 9, 44],
       "role": "Dusty mauve — faded paint, soft focus"
     },
     "sky": {
-      "hex": "#5EC8E8",
-      "rgb": [94, 200, 232],
-      "hsl": [194, 75, 64],
-      "role": "Verse technicolor sky / cyan"
+      "hex": "#0888ED",
+      "rgb": [8, 136, 237],
+      "hsl": [206, 93, 48],
+      "role": "Verse technicolor sky / cyan-blue"
     },
     "green": {
-      "hex": "#5FBF4A",
-      "rgb": [95, 191, 74],
-      "hsl": [109, 48, 52],
+      "hex": "#5A8A42",
+      "rgb": [90, 138, 66],
+      "hsl": [100, 35, 40],
       "role": "Poppy stem / field green"
     },
     "orange": {
-      "hex": "#E8924A",
-      "rgb": [232, 146, 74],
-      "hsl": [27, 77, 60],
-      "role": "Amber warmth, flesh underpaint"
+      "hex": "#EA5638",
+      "rgb": [234, 86, 56],
+      "hsl": [10, 81, 57],
+      "role": "Amber heat, flesh underpaint, dirt sun"
     },
     "pink": {
-      "hex": "#E86A9A",
-      "rgb": [232, 106, 154],
-      "hsl": [337, 73, 66],
-      "role": "Anatomical / heart pink"
+      "hex": "#C97A86",
+      "rgb": [201, 122, 134],
+      "hsl": [351, 42, 63],
+      "role": "Anatomical / heart pink from flesh tones"
     },
     "purple": {
-      "hex": "#7A5A9E",
-      "rgb": [122, 90, 158],
-      "hsl": [268, 27, 49],
+      "hex": "#6B4A58",
+      "rgb": [107, 74, 88],
+      "hsl": [335, 18, 35],
       "role": "Bruise / crow shadow purple"
     },
     "red": {
-      "hex": "#E02030",
-      "rgb": [224, 32, 48],
-      "hsl": [355, 75, 50],
-      "role": "Poppy red — primary accent / chorus"
+      "hex": "#E5141A",
+      "rgb": [229, 20, 26],
+      "hsl": [358, 84, 49],
+      "role": "Poppy / chorus blood — primary accent"
     },
     "yellow": {
-      "hex": "#E8D45A",
-      "rgb": [232, 212, 90],
-      "hsl": [52, 76, 63],
+      "hex": "#D4B84A",
+      "rgb": [212, 184, 74],
+      "hsl": [48, 61, 56],
       "role": "Hand-tint yellow, sun-sick light"
     },
     "silver": {
-      "hex": "#B8C0C8",
-      "rgb": [184, 192, 200],
-      "hsl": [210, 13, 75],
+      "hex": "#C2C8CC",
+      "rgb": [194, 200, 204],
+      "hsl": [204, 9, 78],
       "role": "Cool metal jacket — subtle chrome accent"
     },
     "bright_black": {
-      "hex": "#4A3A3E",
-      "rgb": [74, 58, 62],
-      "hsl": [345, 12, 26],
+      "hex": "#3D2F2D",
+      "rgb": [61, 47, 45],
+      "hsl": [9, 15, 21],
       "role": "Muted terminal black"
     },
     "bright_white": {
-      "hex": "#FFF8F0",
-      "rgb": [255, 248, 240],
-      "hsl": [32, 100, 97],
+      "hex": "#F2EFE8",
+      "rgb": [242, 239, 232],
+      "hsl": [42, 28, 93],
       "role": "Peak highlight"
     }
   },
   "ansi": {
-    "black": "#1A1214",
-    "red": "#E02030",
-    "green": "#5FBF4A",
-    "yellow": "#E8D45A",
-    "blue": "#5EC8E8",
-    "magenta": "#E86A9A",
-    "cyan": "#5EC8E8",
-    "white": "#F4EBE0",
-    "bright_black": "#4A3A3E",
-    "bright_red": "#FF4A58",
-    "bright_green": "#7AD964",
-    "bright_yellow": "#F0E47A",
-    "bright_blue": "#7AD8F0",
-    "bright_magenta": "#F08BB0",
-    "bright_cyan": "#8AE0F5",
-    "bright_white": "#FFF8F0",
-    "silver": "#B8C0C8"
+    "black": "#191413",
+    "red": "#E5141A",
+    "green": "#5A8A42",
+    "yellow": "#D4B84A",
+    "blue": "#0888ED",
+    "magenta": "#C97A86",
+    "cyan": "#47B0F6",
+    "white": "#E8E4DC",
+    "bright_black": "#3D2F2D",
+    "bright_red": "#F53A42",
+    "bright_green": "#7AAD58",
+    "bright_yellow": "#E8D46A",
+    "bright_blue": "#5CB4F0",
+    "bright_magenta": "#E09AA6",
+    "bright_cyan": "#7AC4F8",
+    "bright_white": "#F2EFE8",
+    "silver": "#C2C8CC"
   },
   "ui": {
-    "border": "#4A3A3E",
-    "panel": "#22181B",
-    "muted": "#8A6E78",
-    "accent": "#E02030",
-    "accent_secondary": "#5EC8E8",
-    "metal": "#B8C0C8",
-    "danger": "#E02030",
-    "warning": "#E8924A",
-    "success": "#5FBF4A",
-    "info": "#5EC8E8"
+    "border": "#3A2C30",
+    "panel": "#1A1315",
+    "muted": "#7A656A",
+    "accent": "#E5141A",
+    "accent_secondary": "#0888ED",
+    "metal": "#C2C8CC",
+    "danger": "#E5141A",
+    "warning": "#EA5638",
+    "success": "#5A8A42",
+    "info": "#0888ED",
+    "sky_bright": "#47B0F6",
+    "sky_deep": "#1D4789",
+    "sky_shadow": "#0C3D6A",
+    "red_deep": "#A90B28",
+    "soil": "#701D0E",
+    "flesh": "#9E8680"
   },
   "syntax": {
     "keyword": "pink",

@@ -1,18 +1,18 @@
 /* Heartbox site — palette swatches, ports, poppy field */
 const COLORS = [
-  { name: "background", hex: "#1A1214" },
+  { name: "background", hex: "#191413" },
   { name: "current_line", hex: "#2C1F22" },
   { name: "selection", hex: "#3A2428" },
-  { name: "foreground", hex: "#F4EBE0" },
+  { name: "foreground", hex: "#E8E4DC" },
   { name: "comment", hex: "#8A6E78" },
-  { name: "sky", hex: "#5EC8E8" },
+  { name: "sky", hex: "#0888ED" },
   { name: "green", hex: "#5FBF4A" },
   { name: "orange", hex: "#E8924A" },
   { name: "pink", hex: "#E86A9A" },
   { name: "purple", hex: "#7A5A9E" },
-  { name: "red", hex: "#E02030" },
+  { name: "red", hex: "#E5141A" },
   { name: "yellow", hex: "#E8D45A" },
-  { name: "silver", hex: "#B8C0C8" },
+  { name: "silver", hex: "#C2C8CC" },
 ];
 
 const PORTS = [
@@ -29,7 +29,7 @@ function renderSwatches() {
   const root = document.getElementById("swatches");
   if (!root) return;
   root.innerHTML = COLORS.map((c) => {
-    const fg = luminance(c.hex) > 0.45 ? "#1A1214" : "#F4EBE0";
+    const fg = luminance(c.hex) > 0.45 ? "#191413" : "#E8E4DC";
     return `<article class="swatch" title="${c.name}">
       <div class="chip" style="background:${c.hex};color:${fg}"></div>
       <div class="meta"><span class="name">${c.name}</span><span class="hex">${c.hex}</span></div>

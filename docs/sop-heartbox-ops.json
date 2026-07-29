@@ -1,40 +1,248 @@
 {
-  "id": "sop-heartbox-ops",
-  "title": "Heartbox theme operations",
-  "version": "0.1.0",
-  "product": "heartbox",
-  "site": "https://heartbox.f00.sh",
-  "purpose": "Maintain the Heartbox palette, regenerate ports, deploy the product site, and ship SemVer releases.",
-  "roles": ["maintainer"],
-  "steps": [
+  "org": "f00",
+  "org_sub": "Heartbox · Technicolor dark theme · https://heartbox.f00.sh",
+  "reply_to": "OPS/HEARTBOX",
+  "to": "Maintainers and Release Operators",
+  "from": "Project Engineering",
+  "subject": "Heartbox operator standard operating procedure (palette, ports, deploy, release)",
+  "ref": "AGENTS.md, README.md, CHANGELOG.md, themes/TEMPLATE.md",
+  "date": "2026-07-29",
+  "doc_id": "SOP-HEARTBOX-OPS-001",
+  "doc_title": "STANDARD OPERATING PROCEDURE",
+  "version": "v0.1.0",
+  "opening": "Bottom line: Heartbox is a single canonical dark palette with many application ports. Operators edit palette/heartbox.json, regenerate ports, deploy the product site on Cloudflare Pages (heartbox.f00.sh), and ship SemVer releases with the full documentation pack.",
+  "sections": [
     {
-      "id": "edit-palette",
-      "title": "Edit canonical palette",
-      "detail": "Change colors only in palette/heartbox.json. Keep silver as cool metal for cursor/chrome."
+      "heading": "1. Purpose",
+      "body": "This memorandum is the living operator handbook for Heartbox. It states how to change colors, regenerate ports, deploy the site, and ship a versioned release."
     },
     {
-      "id": "regenerate",
-      "title": "Regenerate ports",
-      "detail": "Run python3 scripts/generate-themes.py and review git diff under themes/ and palette/."
+      "heading": "2. Scope",
+      "body": "This SOP covers product operations for Heartbox. It does not replace the README, man page, or the live site at https://heartbox.f00.sh.",
+      "items": [
+        "product identity",
+        "palette edit rules",
+        "port generation",
+        "Cloudflare Pages deploy and DNS",
+        "release ship flow and docs pack",
+        "failure responses"
+      ]
     },
     {
-      "id": "site",
-      "title": "Update product site swatches",
-      "detail": "If tokens change, update site/app.js COLORS array and site/styles.css :root variables to match."
+      "heading": "3. Product identity",
+      "table": {
+        "headers": ["Item", "Value"],
+        "rows": [
+          ["Product name", "Heartbox"],
+          ["Site", "https://heartbox.f00.sh"],
+          ["Repository", "github.com/f00-sh/heartbox"],
+          ["License", "MIT"],
+          ["Canonical palette", "palette/heartbox.json"],
+          ["Generator", "scripts/generate-themes.py"],
+          ["Edge host", "Cloudflare Pages project f00-heartbox"],
+          ["DNS", "heartbox.f00.sh CNAME → f00-heartbox.pages.dev"],
+          ["Default branch", "main"],
+          ["Published version", "v0.1.0"]
+        ]
+      }
     },
     {
-      "id": "deploy",
-      "title": "Deploy Pages",
-      "detail": "Push site/** to main (workflow pages.yml) or wrangler pages deploy site --project-name=f00-heartbox --branch=main."
+      "heading": "4. Product laws",
+      "steps": [
+        {
+          "n": "4.1",
+          "text": "All ports derive from palette/heartbox.json. Do not invent one-off hex values."
+        },
+        {
+          "n": "4.2",
+          "text": "Silver (#B8C0C8) is required on cursor, chrome, and punctuation tokens."
+        },
+        {
+          "n": "4.3",
+          "text": "Warm hospital-night blacks; poppy red is the hero accent; cream foreground — not pure white."
+        },
+        {
+          "n": "4.4",
+          "text": "Cloudflare Pages is the delivery plane for the public site. GitHub is source and release history only."
+        },
+        {
+          "n": "4.5",
+          "text": "Every SemVer release updates CHANGELOG, file_id.diz, README, man, SOP PDF, and this-version release memo PDF."
+        }
+      ]
     },
     {
-      "id": "release",
-      "title": "SemVer release",
-      "detail": "Bump version in palette JSON, CHANGELOG, file_id.diz, README; tag; attach install.sh, file_id.diz, SOP PDF, memo PDF; update f00 hub card."
+      "heading": "5. Day-to-day operator flow",
+      "body": "Use this path for palette changes and port quality checks.",
+      "steps": [
+        {
+          "n": "5.1",
+          "text": "Clone github.com/f00-sh/heartbox and enter the repository root."
+        },
+        {
+          "n": "5.2",
+          "text": "Edit palette/heartbox.json only when changing colors."
+        },
+        {
+          "n": "5.3",
+          "text": "Run: python3 scripts/generate-themes.py"
+        },
+        {
+          "n": "5.4",
+          "text": "Review git diff under palette/ and themes/. Confirm silver still appears on cursor tokens."
+        },
+        {
+          "n": "5.5",
+          "text": "If tokens changed, update site/app.js COLORS and site/styles.css :root to match."
+        },
+        {
+          "n": "5.6",
+          "text": "Open site/index.html locally and confirm swatches and poppy field render."
+        }
+      ],
+      "figure": {
+        "path": "figures/heartbox-palette.png",
+        "title": "Heartbox canonical palette",
+        "caption": "Token grid used across all ports. Poppy red is the hero accent; silver is the cool metal jacket token.",
+        "max_height": 300,
+        "border": true
+      },
+      "flowchart": {
+        "title": "Palette change quality gates",
+        "color": true,
+        "nodes": [
+          { "id": "start", "label": "Start", "shape": "terminator" },
+          { "id": "edit", "label": "Edit heartbox.json", "shape": "process" },
+          { "id": "gen", "label": "generate-themes.py", "shape": "process" },
+          { "id": "silver", "label": "Silver present?", "shape": "decision" },
+          { "id": "fix_s", "label": "Restore silver token", "shape": "process" },
+          { "id": "site", "label": "Sync site swatches", "shape": "process" },
+          { "id": "review", "label": "Visual review ports", "shape": "process" },
+          { "id": "end", "label": "Commit", "shape": "terminator" }
+        ],
+        "edges": [
+          { "from": "start", "to": "edit" },
+          { "from": "edit", "to": "gen" },
+          { "from": "gen", "to": "silver" },
+          { "from": "silver", "to": "site", "label": "yes" },
+          { "from": "silver", "to": "fix_s", "label": "no" },
+          { "from": "fix_s", "to": "gen" },
+          { "from": "site", "to": "review" },
+          { "from": "review", "to": "end" }
+        ]
+      }
+    },
+    {
+      "heading": "6. Deploy site",
+      "steps": [
+        {
+          "n": "6.1",
+          "text": "Push site/** to main (GitHub Actions pages.yml deploys with CLOUDFLARE_API_TOKEN)."
+        },
+        {
+          "n": "6.2",
+          "text": "Or manual: npx wrangler pages deploy site --project-name=f00-heartbox --branch=main"
+        },
+        {
+          "n": "6.3",
+          "text": "Verify https://f00-heartbox.pages.dev and https://heartbox.f00.sh return HTTP 200."
+        },
+        {
+          "n": "6.4",
+          "text": "DNS: CNAME heartbox.f00.sh → f00-heartbox.pages.dev (proxied). Custom domain attached on Pages project f00-heartbox."
+        }
+      ],
+      "flowchart": {
+        "title": "Site deploy path",
+        "color": true,
+        "nodes": [
+          { "id": "s", "label": "site/ change", "shape": "terminator" },
+          { "id": "push", "label": "Push main", "shape": "process" },
+          { "id": "gha", "label": "pages.yml deploy", "shape": "process" },
+          { "id": "ok", "label": "HTTP 200?", "shape": "decision" },
+          { "id": "fix", "label": "Check token / domain", "shape": "process" },
+          { "id": "e", "label": "Live", "shape": "terminator" }
+        ],
+        "edges": [
+          { "from": "s", "to": "push" },
+          { "from": "push", "to": "gha" },
+          { "from": "gha", "to": "ok" },
+          { "from": "ok", "to": "e", "label": "yes" },
+          { "from": "ok", "to": "fix", "label": "no" },
+          { "from": "fix", "to": "gha" }
+        ]
+      }
+    },
+    {
+      "heading": "7. Release ship flow",
+      "steps": [
+        {
+          "n": "7.1",
+          "text": "Bump version in palette/heartbox.json, CHANGELOG.md, file_id.diz, README, SOP version."
+        },
+        {
+          "n": "7.2",
+          "text": "Regenerate ports. Update man page if tokens or install paths changed."
+        },
+        {
+          "n": "7.3",
+          "text": "Render NASA SOP PDF and this-version NASA release memo PDF via memo-pdf skill."
+        },
+        {
+          "n": "7.4",
+          "text": "Tag vX.Y.Z, create GitHub Release, attach install.sh, file_id.diz, SOP PDF, memo PDF."
+        },
+        {
+          "n": "7.5",
+          "text": "Update f00 hub product card on first ship or when copy/links change."
+        }
+      ],
+      "flowchart": {
+        "title": "SemVer release ship",
+        "color": true,
+        "nodes": [
+          { "id": "start", "label": "Start release", "shape": "terminator" },
+          { "id": "bump", "label": "Bump versions", "shape": "process" },
+          { "id": "gen", "label": "Regen ports + docs", "shape": "process" },
+          { "id": "pdf", "label": "SOP + memo PDFs", "shape": "process" },
+          { "id": "tag", "label": "Tag + GitHub Release", "shape": "process" },
+          { "id": "hub", "label": "Hub card update", "shape": "process" },
+          { "id": "end", "label": "Done", "shape": "terminator" }
+        ],
+        "edges": [
+          { "from": "start", "to": "bump" },
+          { "from": "bump", "to": "gen" },
+          { "from": "gen", "to": "pdf" },
+          { "from": "pdf", "to": "tag" },
+          { "from": "tag", "to": "hub" },
+          { "from": "hub", "to": "end" }
+        ]
+      }
+    },
+    {
+      "heading": "8. Failure responses",
+      "items": [
+        "Generator fails: fix JSON syntax in palette/heartbox.json, re-run.",
+        "Pages deploy 401: refresh CLOUDFLARE_API_TOKEN and account id secrets.",
+        "Custom domain 522: wait for certificate validation; confirm CNAME proxied to f00-heartbox.pages.dev.",
+        "Port contrast poor: adjust token in palette only, regenerate all ports together."
+      ]
+    },
+    {
+      "heading": "9. References",
+      "items": [
+        "https://heartbox.f00.sh",
+        "https://github.com/f00-sh/heartbox",
+        "palette/heartbox.json",
+        "themes/TEMPLATE.md",
+        "AGENTS.md"
+      ]
     }
   ],
-  "domains": {
-    "site": "heartbox.f00.sh",
-    "pages_project": "f00-heartbox"
-  }
+  "signature": {
+    "name": "Project Engineering",
+    "title": "f00 / Heartbox"
+  },
+  "cc": "Maintainers, Release Operators",
+  "enclosure": "docs/figures/heartbox-palette.png"
 }

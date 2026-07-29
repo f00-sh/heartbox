@@ -1,0 +1,85 @@
+{
+  "org": "f00",
+  "org_sub": "Heartbox · https://heartbox.f00.sh",
+  "reply_to": "REL/HEARTBOX",
+  "to": "Distribution",
+  "from": "Project Engineering",
+  "subject": "Heartbox v0.1.0 release memorandum",
+  "date": "2026-07-29",
+  "ref": "CHANGELOG.md [0.1.0], github.com/f00-sh/heartbox",
+  "opening": "This memorandum covers Heartbox version 0.1.0 only. Heartbox ships as a hand-tinted Technicolor dark theme pack: one canonical palette, many application ports, and product site heartbox.f00.sh.",
+  "sections": [
+    {
+      "heading": "1. Summary",
+      "body": "v0.1.0 is the first public f00 product release of Heartbox. Operators and users install theme files per application under themes/. The palette encodes warm hospital-night blacks, poppy red hero accent, verse-sky blue, cream foreground, and required cool silver metal (#B8C0C8)."
+    },
+    {
+      "heading": "2. Added",
+      "items": [
+        "Canonical palette (JSON/CSS/TOML/YAML/SCSS)",
+        "scripts/generate-themes.py port generator",
+        "45+ app ports (terminals, editors, shells, bars, CLIs)",
+        "themes/TEMPLATE.md for community ports",
+        "Product site site/ on Cloudflare Pages project f00-heartbox",
+        "Custom domain heartbox.f00.sh",
+        "Docs pack: SOP, this memo, man, file_id.diz, CHANGELOG"
+      ]
+    },
+    {
+      "heading": "3. Changed",
+      "body": "Not applicable — first release."
+    },
+    {
+      "heading": "4. Fixed",
+      "body": "Not applicable — first release."
+    },
+    {
+      "heading": "5. Security",
+      "body": "No authentication surface. Theme files are static configuration only. Do not commit secrets. Cloudflare tokens stay in GitHub Actions secrets."
+    },
+    {
+      "heading": "6. Upgrade / install",
+      "steps": [
+        {
+          "n": "6.1",
+          "text": "Browse https://heartbox.f00.sh for palette and port list."
+        },
+        {
+          "n": "6.2",
+          "text": "git clone https://github.com/f00-sh/heartbox.git && copy themes/<app>/ as needed."
+        },
+        {
+          "n": "6.3",
+          "text": "Maintainers: python3 scripts/generate-themes.py after palette edits."
+        },
+        {
+          "n": "6.4",
+          "text": "Deploy operators: npx wrangler pages deploy site --project-name=f00-heartbox --branch=main"
+        }
+      ]
+    },
+    {
+      "heading": "7. Verification",
+      "items": [
+        "palette/heartbox.json contains silver #B8C0C8",
+        "python3 scripts/generate-themes.py exits 0",
+        "Open site/index.html; swatches render 13 tokens",
+        "https://heartbox.f00.sh returns 200 after cert ready",
+        "Sample port (kitty/alacritty) loads without missing keys"
+      ]
+    },
+    {
+      "heading": "8. References",
+      "items": [
+        "https://heartbox.f00.sh",
+        "https://github.com/f00-sh/heartbox/releases/tag/v0.1.0",
+        "docs/sop-heartbox-ops.pdf",
+        "CHANGELOG.md section 0.1.0"
+      ]
+    }
+  ],
+  "signature": {
+    "name": "Project Engineering",
+    "title": "f00 / Heartbox"
+  }
+}

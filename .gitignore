@@ -80,6 +80,7 @@ ENV/
 
 # --- Tooling ---
 .direnv/
+.wrangler/
 .terraform/
 *.tfstate*
 .serverless/

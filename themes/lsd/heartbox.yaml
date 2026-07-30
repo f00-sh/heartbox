@@ -1,10 +1,10 @@
 # Heartbox — lsd colors
-user: 2096EE
+user: 2A7EB0
 group: 454B93
 permission:
-  read: 5A8A3A
-  write: D4A83A
-  exec: C50A1B
+  read: 5A7A42
+  write: C49A3C
+  exec: B82E18
   exec-sticky: C47A72
   no-access: 3A3232
 date:
@@ -13,13 +13,13 @@ date:
   older: 3A3232
 size:
   none: 3A3232
-  small: 5A8A3A
-  medium: D4A83A
+  small: 5A7A42
+  medium: C49A3C
   large: C45A20
 inode:
   valid: EDE6DE
-  invalid: C50A1B
+  invalid: B82E18
 links:
-  valid: 2096EE
-  invalid: C50A1B
+  valid: 2A7EB0
+  invalid: B82E18
 tree-edge: 3A3232

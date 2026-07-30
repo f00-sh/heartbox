@@ -11,13 +11,13 @@ Copy this checklist when adding an app under `themes/<app>/`.
 | selection | `#56180A` | selection |
 | foreground | `#EDE6DE` | primary text |
 | comment | `#8A7874` | comments, muted |
-| sky | `#2096EE` | functions, types, links (verse blue) |
-| green | `#5A8A3A` | strings alt, classes, success |
+| sky | `#2A7EB0` | functions, types, links (verse blue) |
+| green | `#5A7A42` | strings alt, classes, success |
 | orange | `#C45A20` | numbers, warnings |
 | pink | `#C47A72` | keywords |
 | purple | `#454B93` | constants, builtins |
-| red | `#C50A1B` | poppy accent, errors, tags |
-| yellow | `#D4A83A` | strings |
+| red | `#B82E18` | poppy accent, errors, tags |
+| yellow | `#C49A3C` | strings |
 | **silver** | `#B8BEC2` | **cursor, chrome, punctuation — Kurt jacket metal** |
 
 ## Feel rules

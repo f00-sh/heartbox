@@ -16,12 +16,12 @@ window#waybar {
 }
 #workspaces button.active {
   color: #090909;
-  background: #C50A1B;
+  background: #B82E18;
 }
 #clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray {
   padding: 0 10px;
   color: #EDE6DE;
 }
 #battery.warning { color: #C45A20; }
-#battery.critical { color: #C50A1B; }
-#network.disconnected { color: #C50A1B; }
+#battery.critical { color: #B82E18; }
+#network.disconnected { color: #B82E18; }

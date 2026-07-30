@@ -3,11 +3,11 @@ k9s:
   body:
     fgColor: "#EDE6DE"
     bgColor: "#090909"
-    logoColor: "#C50A1B"
+    logoColor: "#B82E18"
   prompt:
     fgColor: "#EDE6DE"
     bgColor: "#090909"
-    suggestColor: "#2096EE"
+    suggestColor: "#2A7EB0"
   info:
     fgColor: "#C47A72"
     sectionColor: "#EDE6DE"
@@ -15,15 +15,15 @@ k9s:
     fgColor: "#EDE6DE"
     bgColor: "#090909"
     buttonFgColor: "#090909"
-    buttonBgColor: "#C50A1B"
+    buttonBgColor: "#B82E18"
     buttonFocusFgColor: "#090909"
-    buttonFocusBgColor: "#2096EE"
-    labelFgColor: "#D4A83A"
+    buttonFocusBgColor: "#2A7EB0"
+    labelFgColor: "#C49A3C"
     fieldFgColor: "#EDE6DE"
   frame:
     border:
       fgColor: "#B8BEC2"
-      focusColor: "#C50A1B"
+      focusColor: "#B82E18"
     menu:
       fgColor: "#EDE6DE"
       keyColor: "#C47A72"
@@ -31,12 +31,12 @@ k9s:
     crumbs:
       fgColor: "#090909"
       bgColor: "#454B93"
-      activeColor: "#C50A1B"
+      activeColor: "#B82E18"
     status:
-      newColor: "#2096EE"
-      modifyColor: "#D4A83A"
-      addColor: "#5A8A3A"
-      errorColor: "#C50A1B"
+      newColor: "#2A7EB0"
+      modifyColor: "#C49A3C"
+      addColor: "#5A7A42"
+      errorColor: "#B82E18"
       highlightColor: "#C45A20"
       killColor: "#C47A72"
       completedColor: "#8A7874"
@@ -44,7 +44,7 @@ k9s:
       fgColor: "#EDE6DE"
       bgColor: "#090909"
       highlightColor: "#B8BEC2"
-      counterColor: "#2096EE"
+      counterColor: "#2A7EB0"
       filterColor: "#C47A72"
   views:
     table:
@@ -61,4 +61,4 @@ k9s:
       bgColor: "#090909"
       indicator:
         fgColor: "#EDE6DE"
-        bgColor: "#C50A1B"
+        bgColor: "#B82E18"

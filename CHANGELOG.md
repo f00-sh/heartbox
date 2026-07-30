@@ -1,3 +1,12 @@
+## [0.3.0] - 2026-04-10
+
+### Changed
+
+- Dye-transfer Technicolor pass: warm cobalt sky `#2A7EB0`, Oz poppy scarlet `#B82E18`.
+- Cool silver chrome ladder (`#D0D5DB` / `#E4E8ED` / `#B8BEC2`); pure white banned.
+- Hospital cream paper UI (`#E8DFD4`) with poppy type; ANSI brights desaturated.
+- Regenerated all app ports; f00 shared CSS `f00-theme-32.css` + hero `hb-hero-dye-r7`.
+
 ## [0.2.1] - 2026-07-29
 
 ### Changed

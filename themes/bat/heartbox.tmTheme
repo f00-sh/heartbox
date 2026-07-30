@@ -16,11 +16,11 @@
       </dict>
     </dict>
     <dict><key>name</key><string>Comment</string><key>scope</key><string>comment</string><key>settings</key><dict><key>foreground</key><string>#8A7874</string><key>fontStyle</key><string>italic</string></dict></dict>
-    <dict><key>name</key><string>String</string><key>scope</key><string>string</string><key>settings</key><dict><key>foreground</key><string>#D4A83A</string></dict></dict>
+    <dict><key>name</key><string>String</string><key>scope</key><string>string</string><key>settings</key><dict><key>foreground</key><string>#C49A3C</string></dict></dict>
     <dict><key>name</key><string>Number</string><key>scope</key><string>constant.numeric</string><key>settings</key><dict><key>foreground</key><string>#C45A20</string></dict></dict>
     <dict><key>name</key><string>Keyword</string><key>scope</key><string>keyword</string><key>settings</key><dict><key>foreground</key><string>#C47A72</string></dict></dict>
-    <dict><key>name</key><string>Function</string><key>scope</key><string>entity.name.function</string><key>settings</key><dict><key>foreground</key><string>#2096EE</string></dict></dict>
-    <dict><key>name</key><string>Type</string><key>scope</key><string>entity.name.type</string><key>settings</key><dict><key>foreground</key><string>#5A8A3A</string></dict></dict>
+    <dict><key>name</key><string>Function</string><key>scope</key><string>entity.name.function</string><key>settings</key><dict><key>foreground</key><string>#2A7EB0</string></dict></dict>
+    <dict><key>name</key><string>Type</string><key>scope</key><string>entity.name.type</string><key>settings</key><dict><key>foreground</key><string>#5A7A42</string></dict></dict>
     <dict><key>name</key><string>Constant</string><key>scope</key><string>constant</string><key>settings</key><dict><key>foreground</key><string>#454B93</string></dict></dict>
     <dict><key>name</key><string>Punctuation</string><key>scope</key><string>punctuation</string><key>settings</key><dict><key>foreground</key><string>#B8BEC2</string></dict></dict>
   </array>

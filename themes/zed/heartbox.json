@@ -17,26 +17,26 @@
         "terminal.background": "#090909",
         "terminal.foreground": "#EDE6DE",
         "terminal.ansi.black": "#090909",
-        "terminal.ansi.red": "#C50A1B",
-        "terminal.ansi.green": "#5A8A3A",
-        "terminal.ansi.yellow": "#D4A83A",
-        "terminal.ansi.blue": "#2096EE",
+        "terminal.ansi.red": "#B82E18",
+        "terminal.ansi.green": "#5A7A42",
+        "terminal.ansi.yellow": "#C49A3C",
+        "terminal.ansi.blue": "#2A7EB0",
         "terminal.ansi.magenta": "#C47A72",
-        "terminal.ansi.cyan": "#4AADF5",
+        "terminal.ansi.cyan": "#4A96C4",
         "terminal.ansi.white": "#EDE6DE",
         "terminal.ansi.bright_black": "#3A3232",
-        "terminal.ansi.bright_red": "#E81420",
-        "terminal.ansi.bright_green": "#7AAD58",
-        "terminal.ansi.bright_yellow": "#E8C85A",
-        "terminal.ansi.bright_blue": "#4AADF5",
-        "terminal.ansi.bright_magenta": "#E09A94",
-        "terminal.ansi.bright_cyan": "#7AC4F8",
-        "terminal.ansi.bright_white": "#F5F1EA",
+        "terminal.ansi.bright_red": "#D43A22",
+        "terminal.ansi.bright_green": "#6A9A52",
+        "terminal.ansi.bright_yellow": "#D4B85A",
+        "terminal.ansi.bright_blue": "#4A96C4",
+        "terminal.ansi.bright_magenta": "#D49A94",
+        "terminal.ansi.bright_cyan": "#6AACC8",
+        "terminal.ansi.bright_white": "#E8E2D8",
         "text": "#EDE6DE",
         "text.muted": "#8A7874",
-        "text.accent": "#C50A1B",
+        "text.accent": "#B82E18",
         "border": "#3A3232",
-        "border.focused": "#C50A1B",
+        "border.focused": "#B82E18",
         "element.background": "#141011",
         "element.hover": "#1C1617",
         "element.selected": "#56180A",
@@ -61,7 +61,7 @@
             "font_style": "italic"
           },
           "string": {
-            "color": "#D4A83A"
+            "color": "#C49A3C"
           },
           "number": {
             "color": "#C45A20"
@@ -70,10 +70,10 @@
             "color": "#C47A72"
           },
           "function": {
-            "color": "#2096EE"
+            "color": "#2A7EB0"
           },
           "type": {
-            "color": "#2096EE"
+            "color": "#2A7EB0"
           },
           "variable": {
             "color": "#EDE6DE"
@@ -85,10 +85,10 @@
             "color": "#B8BEC2"
           },
           "tag": {
-            "color": "#C50A1B"
+            "color": "#B82E18"
           },
           "attribute": {
-            "color": "#5A8A3A"
+            "color": "#5A7A42"
           },
           "operator": {
             "color": "#C47A72"

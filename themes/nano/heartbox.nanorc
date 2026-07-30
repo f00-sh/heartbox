@@ -3,6 +3,6 @@ set titlecolor bold,#EDE6DE,#1C1617
 set statuscolor bold,#EDE6DE,#1C1617
 set selectedcolor bold,#EDE6DE,#56180A
 set numbercolor #3A3232,#090909
-set keycolor #2096EE,#090909
+set keycolor #2A7EB0,#090909
 set functioncolor #C47A72,#090909
 set scrollercolor #B8BEC2,#090909

@@ -1,18 +1,18 @@
 /* Heartbox site — palette swatches, ports, poppy field */
 const COLORS = [
-  { name: "background", hex: "#191413" },
-  { name: "current_line", hex: "#2C1F22" },
-  { name: "selection", hex: "#3A2428" },
-  { name: "foreground", hex: "#E8E4DC" },
-  { name: "comment", hex: "#8A6E78" },
-  { name: "sky", hex: "#0888ED" },
-  { name: "green", hex: "#5FBF4A" },
-  { name: "orange", hex: "#E8924A" },
-  { name: "pink", hex: "#E86A9A" },
-  { name: "purple", hex: "#7A5A9E" },
-  { name: "red", hex: "#E5141A" },
-  { name: "yellow", hex: "#E8D45A" },
-  { name: "silver", hex: "#C2C8CC" },
+  { name: "background", hex: "#090909" },
+  { name: "current_line", hex: "#1C1617" },
+  { name: "selection", hex: "#56180A" },
+  { name: "foreground", hex: "#EDE6DE" },
+  { name: "comment", hex: "#8A7874" },
+  { name: "sky", hex: "#2A7EB0" },
+  { name: "green", hex: "#5A7A42" },
+  { name: "orange", hex: "#C45A20" },
+  { name: "pink", hex: "#C47A72" },
+  { name: "purple", hex: "#454B93" },
+  { name: "red", hex: "#B82E18" },
+  { name: "yellow", hex: "#C49A3C" },
+  { name: "silver", hex: "#B8BEC2" },
 ];
 
 const PORTS = [
@@ -29,7 +29,7 @@ function renderSwatches() {
   const root = document.getElementById("swatches");
   if (!root) return;
   root.innerHTML = COLORS.map((c) => {
-    const fg = luminance(c.hex) > 0.45 ? "#191413" : "#E8E4DC";
+    const fg = luminance(c.hex) > 0.45 ? "#090909" : "#EDE6DE";
     return `<article class="swatch" title="${c.name}">
       <div class="chip" style="background:${c.hex};color:${fg}"></div>
       <div class="meta"><span class="name">${c.name}</span><span class="hex">${c.hex}</span></div>

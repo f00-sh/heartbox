@@ -1,3 +1,4 @@
+/* Layout only. Brand shell: https://f00.sh/theme/f00-theme.css (sky / white boxes / poppy). */
 /* Heartbox product site — HSB palette · Bleach catalog boxes */
 :root {
   --hb-bg: #090909;
@@ -339,3 +340,7 @@ h1 {
   .nav { gap: 0.65rem; font-size: 0.75rem; }
   .panel { padding: 1rem; }
 }
+
+/* Let shared sky show through */
+.crt, .field, .scanlines, .vignette, .tint { opacity: 0.25 !important; mix-blend-mode: soft-light; }
+body { min-height: 100dvh; }

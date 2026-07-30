@@ -1,15 +1,15 @@
 # Heartbox — yazi (flavor fragment)
 [mgr]
-cwd = { fg = "#2A7EB0" }
+cwd = { fg = "#1E78C8" }
 hovered = { fg = "#EDE6DE", bg = "#56180A" }
 preview_hovered = { underline = true }
 find_keyword = { fg = "#C49A3C", bold = true }
 find_position = { fg = "#C47A72", bg = "reset", bold = true }
-marker_copied = { fg = "#5A7A42", bg = "#5A7A42" }
-marker_cut = { fg = "#B82E18", bg = "#B82E18" }
+marker_copied = { fg = "#3D8A48", bg = "#3D8A48" }
+marker_cut = { fg = "#D44A18", bg = "#D44A18" }
 marker_selected = { fg = "#C49A3C", bg = "#C49A3C" }
-count_copied = { fg = "#090909", bg = "#5A7A42" }
-count_cut = { fg = "#090909", bg = "#B82E18" }
+count_copied = { fg = "#090909", bg = "#3D8A48" }
+count_cut = { fg = "#090909", bg = "#D44A18" }
 count_selected = { fg = "#090909", bg = "#C49A3C" }
 border_symbol = "│"
 border_style = { fg = "#B8BEC2" }
@@ -18,14 +18,14 @@ border_style = { fg = "#B8BEC2" }
 separator_open = ""
 separator_close = ""
 separator_style = { fg = "#1C1617", bg = "#1C1617" }
-mode_normal = { fg = "#090909", bg = "#B82E18", bold = true }
+mode_normal = { fg = "#090909", bg = "#D44A18", bold = true }
 mode_select = { fg = "#090909", bg = "#C49A3C", bold = true }
 mode_unset = { fg = "#090909", bg = "#C47A72", bold = true }
 progress_label = { bold = true }
-progress_normal = { fg = "#2A7EB0", bg = "#090909" }
-progress_error = { fg = "#B82E18", bg = "#090909" }
-permissions_t = { fg = "#5A7A42" }
+progress_normal = { fg = "#1E78C8", bg = "#090909" }
+progress_error = { fg = "#D44A18", bg = "#090909" }
+permissions_t = { fg = "#3D8A48" }
 permissions_r = { fg = "#C49A3C" }
-permissions_w = { fg = "#B82E18" }
-permissions_x = { fg = "#2A7EB0" }
+permissions_w = { fg = "#D44A18" }
+permissions_x = { fg = "#1E78C8" }
 permissions_s = { fg = "#B8BEC2" }

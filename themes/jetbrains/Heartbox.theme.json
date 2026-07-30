@@ -6,10 +6,10 @@
   "colors": {
     "bg": "#090909",
     "fg": "#EDE6DE",
-    "accent": "#B82E18",
+    "accent": "#D44A18",
     "metal": "#B8BEC2",
-    "sky": "#2A7EB0",
-    "poppy": "#B82E18"
+    "sky": "#1E78C8",
+    "poppy": "#D44A18"
   },
   "ui": {
     "*": {

@@ -17,26 +17,26 @@
         "terminal.background": "#090909",
         "terminal.foreground": "#EDE6DE",
         "terminal.ansi.black": "#090909",
-        "terminal.ansi.red": "#B82E18",
-        "terminal.ansi.green": "#5A7A42",
+        "terminal.ansi.red": "#D44A18",
+        "terminal.ansi.green": "#3D8A48",
         "terminal.ansi.yellow": "#C49A3C",
-        "terminal.ansi.blue": "#2A7EB0",
+        "terminal.ansi.blue": "#1E78C8",
         "terminal.ansi.magenta": "#C47A72",
-        "terminal.ansi.cyan": "#4A96C4",
+        "terminal.ansi.cyan": "#3A94D8",
         "terminal.ansi.white": "#EDE6DE",
         "terminal.ansi.bright_black": "#3A3232",
-        "terminal.ansi.bright_red": "#D43A22",
-        "terminal.ansi.bright_green": "#6A9A52",
+        "terminal.ansi.bright_red": "#E86022",
+        "terminal.ansi.bright_green": "#5AA05A",
         "terminal.ansi.bright_yellow": "#D4B85A",
-        "terminal.ansi.bright_blue": "#4A96C4",
+        "terminal.ansi.bright_blue": "#3A94D8",
         "terminal.ansi.bright_magenta": "#D49A94",
         "terminal.ansi.bright_cyan": "#6AACC8",
         "terminal.ansi.bright_white": "#E8E2D8",
         "text": "#EDE6DE",
         "text.muted": "#8A7874",
-        "text.accent": "#B82E18",
+        "text.accent": "#D44A18",
         "border": "#3A3232",
-        "border.focused": "#B82E18",
+        "border.focused": "#D44A18",
         "element.background": "#141011",
         "element.hover": "#1C1617",
         "element.selected": "#56180A",
@@ -70,10 +70,10 @@
             "color": "#C47A72"
           },
           "function": {
-            "color": "#2A7EB0"
+            "color": "#1E78C8"
           },
           "type": {
-            "color": "#2A7EB0"
+            "color": "#1E78C8"
           },
           "variable": {
             "color": "#EDE6DE"
@@ -85,10 +85,10 @@
             "color": "#B8BEC2"
           },
           "tag": {
-            "color": "#B82E18"
+            "color": "#D44A18"
           },
           "attribute": {
-            "color": "#5A7A42"
+            "color": "#3D8A48"
           },
           "operator": {
             "color": "#C47A72"

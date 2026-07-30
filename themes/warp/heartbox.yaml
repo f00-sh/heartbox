@@ -1,5 +1,5 @@
 name: Heartbox
-accent: "#B82E18"
+accent: "#D44A18"
 cursor: "#B8BEC2"
 background: "#090909"
 foreground: "#EDE6DE"
@@ -7,19 +7,19 @@ details: darker
 terminal_colors:
   normal:
     black: "#090909"
-    red: "#B82E18"
-    green: "#5A7A42"
+    red: "#D44A18"
+    green: "#3D8A48"
     yellow: "#C49A3C"
-    blue: "#2A7EB0"
+    blue: "#1E78C8"
     magenta: "#C47A72"
-    cyan: "#4A96C4"
+    cyan: "#3A94D8"
     white: "#EDE6DE"
   bright:
     black: "#3A3232"
-    red: "#D43A22"
-    green: "#6A9A52"
+    red: "#E86022"
+    green: "#5AA05A"
     yellow: "#D4B85A"
-    blue: "#4A96C4"
+    blue: "#3A94D8"
     magenta: "#D49A94"
     cyan: "#6AACC8"
     white: "#E8E2D8"

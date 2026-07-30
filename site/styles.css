@@ -18,7 +18,7 @@ body {
 
 .skip {
   position: absolute; left: -999px; top: 0;
-  background: #B82E18; color: #ede6de; padding: 0.5rem 1rem; z-index: 100;
+  background: #D44A18; color: #ede6de; padding: 0.5rem 1rem; z-index: 100;
 }
 .skip:focus { left: 0; }
 
@@ -93,11 +93,11 @@ a.port:hover, .port:hover {
 }
 
 .feel-list { margin: 0; padding-left: 1.15rem; }
-.feel-list li { margin: 0.35rem 0; color: #B82E18 !important; }
-.hint { margin: 1rem 0 0; font-size: 0.9rem; color: #8A1E10 !important; }
+.feel-list li { margin: 0.35rem 0; color: #D44A18 !important; }
+.hint { margin: 1rem 0 0; font-size: 0.9rem; color: #8A2810 !important; }
 .hint code, .panel code:not(pre code) {
   background: rgba(184, 46, 24, 0.12) !important;
-  color: #8A1E10 !important;
+  color: #8A2810 !important;
   padding: 0.05em 0.3em;
 }
 
@@ -111,10 +111,10 @@ a.port:hover, .port:hover {
   color: #ede6de !important;
 }
 .install-block p, .install-block pre { color: #ede6de !important; margin: 0.5rem 0; }
-.install-block code { color: #4A96C4 !important; background: transparent !important; }
+.install-block code { color: #3A94D8 !important; background: transparent !important; }
 
 .docs-list { margin: 0; padding-left: 1.1rem; }
-.docs-list a { color: #8A1E10 !important; font-weight: 700; }
+.docs-list a { color: #8A2810 !important; font-weight: 700; }
 
 .foot {
   max-width: var(--max); margin: 0 auto;

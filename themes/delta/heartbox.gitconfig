@@ -1,13 +1,13 @@
 # Heartbox — git-delta (include in ~/.gitconfig)
 [delta]
     syntax-theme = Heartbox
-    plus-style = syntax "#5A7A42"
-    minus-style = syntax "#B82E18"
-    plus-emph-style = syntax bold "#5A7A42"
-    minus-emph-style = syntax bold "#B82E18"
+    plus-style = syntax "#3D8A48"
+    minus-style = syntax "#D44A18"
+    plus-emph-style = syntax bold "#3D8A48"
+    minus-emph-style = syntax bold "#D44A18"
     line-numbers-left-style = "#3A3232"
     line-numbers-right-style = "#3A3232"
-    line-numbers-minus-style = "#B82E18"
-    line-numbers-plus-style = "#5A7A42"
+    line-numbers-minus-style = "#D44A18"
+    line-numbers-plus-style = "#3D8A48"
     line-numbers-zero-style = "#8A7874"
-    map-styles = bold purple => syntax "#454B93", bold blue => syntax "#2A7EB0", bold cyan => syntax "#2A7EB0", bold yellow => syntax "#C49A3C"
+    map-styles = bold purple => syntax "#454B93", bold blue => syntax "#1E78C8", bold cyan => syntax "#1E78C8", bold yellow => syntax "#C49A3C"

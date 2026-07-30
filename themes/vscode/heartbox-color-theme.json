@@ -15,42 +15,42 @@
     "activityBar.foreground": "#B8BEC2",
     "statusBar.background": "#1C1617",
     "statusBar.foreground": "#EDE6DE",
-    "statusBar.debuggingBackground": "#B82E18",
+    "statusBar.debuggingBackground": "#D44A18",
     "tab.activeBackground": "#1C1617",
     "tab.inactiveBackground": "#090909",
     "tab.activeForeground": "#EDE6DE",
     "tab.inactiveForeground": "#8A7874",
-    "tab.activeBorderTop": "#B82E18",
+    "tab.activeBorderTop": "#D44A18",
     "titleBar.activeBackground": "#090909",
     "titleBar.activeForeground": "#EDE6DE",
     "panel.background": "#141011",
     "panel.border": "#3A3232",
-    "focusBorder": "#B82E18",
-    "button.background": "#B82E18",
+    "focusBorder": "#D44A18",
+    "button.background": "#D44A18",
     "button.foreground": "#EDE6DE",
     "list.activeSelectionBackground": "#56180A",
     "list.hoverBackground": "#1C1617",
-    "list.highlightForeground": "#2A7EB0",
+    "list.highlightForeground": "#1E78C8",
     "terminal.background": "#090909",
     "terminal.foreground": "#EDE6DE",
     "terminal.ansiBlack": "#090909",
-    "terminal.ansiRed": "#B82E18",
-    "terminal.ansiGreen": "#5A7A42",
+    "terminal.ansiRed": "#D44A18",
+    "terminal.ansiGreen": "#3D8A48",
     "terminal.ansiYellow": "#C49A3C",
-    "terminal.ansiBlue": "#2A7EB0",
+    "terminal.ansiBlue": "#1E78C8",
     "terminal.ansiMagenta": "#C47A72",
-    "terminal.ansiCyan": "#4A96C4",
+    "terminal.ansiCyan": "#3A94D8",
     "terminal.ansiWhite": "#EDE6DE",
     "terminal.ansiBrightBlack": "#3A3232",
-    "terminal.ansiBrightRed": "#D43A22",
-    "terminal.ansiBrightGreen": "#6A9A52",
+    "terminal.ansiBrightRed": "#E86022",
+    "terminal.ansiBrightGreen": "#5AA05A",
     "terminal.ansiBrightYellow": "#D4B85A",
-    "terminal.ansiBrightBlue": "#4A96C4",
+    "terminal.ansiBrightBlue": "#3A94D8",
     "terminal.ansiBrightMagenta": "#D49A94",
     "terminal.ansiBrightCyan": "#6AACC8",
     "terminal.ansiBrightWhite": "#E8E2D8",
-    "gitDecoration.addedResourceForeground": "#5A7A42",
-    "gitDecoration.deletedResourceForeground": "#B82E18",
+    "gitDecoration.addedResourceForeground": "#3D8A48",
+    "gitDecoration.deletedResourceForeground": "#D44A18",
     "gitDecoration.modifiedResourceForeground": "#C49A3C"
   },
   "tokenColors": [
@@ -94,7 +94,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#2A7EB0"
+        "foreground": "#1E78C8"
       }
     },
     {
@@ -104,7 +104,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#5A7A42"
+        "foreground": "#3D8A48"
       }
     },
     {
@@ -128,7 +128,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#B82E18"
+        "foreground": "#D44A18"
       }
     },
     {
@@ -136,7 +136,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#5A7A42"
+        "foreground": "#3D8A48"
       }
     },
     {
@@ -152,7 +152,7 @@
         "invalid"
       ],
       "settings": {
-        "foreground": "#B82E18"
+        "foreground": "#D44A18"
       }
     }
   ]

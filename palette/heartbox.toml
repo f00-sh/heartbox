@@ -1,6 +1,6 @@
 # Heartbox Theme — canonical palette
 name = "Heartbox"
-version = "0.3.0"
+version = "0.3.1"
 
 [colors]
 background = "#090909"
@@ -8,11 +8,11 @@ current_line = "#1C1617"
 selection = "#56180A"
 foreground = "#EDE6DE"
 comment = "#8A7874"
-sky = "#2A7EB0"
-green = "#5A7A42"
+sky = "#1E78C8"
+green = "#3D8A48"
 orange = "#C45A20"
 pink = "#C47A72"
 purple = "#454B93"
-red = "#B82E18"
+red = "#D44A18"
 yellow = "#C49A3C"
 silver = "#B8BEC2"

@@ -1,3 +1,11 @@
+## [0.3.1] - 2026-04-10
+
+### Changed
+
+- Photo-locked palette to organic poppy-xray hero (`hb-hero-xray-r8`): sky `#1E78C8`, poppy `#D44A18`.
+- Restored translucent xray field drama (std ~97); pure-channel clip on photo ends only.
+- Favicons / brand marks recolored to match; all ports regenerated; f00 `theme-33`.
+
 ## [0.3.0] - 2026-04-10
 
 ### Changed

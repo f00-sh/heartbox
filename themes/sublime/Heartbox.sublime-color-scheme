@@ -11,7 +11,7 @@
     "find_highlight": "#C49A3C",
     "find_highlight_foreground": "#090909",
     "brackets_options": "underline",
-    "brackets_foreground": "#B82E18",
+    "brackets_foreground": "#D44A18",
     "tags_options": "stippled_underline",
     "tags_foreground": "#C47A72",
     "guide": "#3A3232",
@@ -49,12 +49,12 @@
     {
       "name": "Function",
       "scope": "entity.name.function, support.function",
-      "foreground": "#2A7EB0"
+      "foreground": "#1E78C8"
     },
     {
       "name": "Class",
       "scope": "entity.name.class, entity.name.type",
-      "foreground": "#5A7A42"
+      "foreground": "#3D8A48"
     },
     {
       "name": "Constant",
@@ -69,12 +69,12 @@
     {
       "name": "Tag",
       "scope": "entity.name.tag",
-      "foreground": "#B82E18"
+      "foreground": "#D44A18"
     },
     {
       "name": "Attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#5A7A42"
+      "foreground": "#3D8A48"
     },
     {
       "name": "Punctuation",
@@ -85,7 +85,7 @@
       "name": "Invalid",
       "scope": "invalid",
       "foreground": "#EDE6DE",
-      "background": "#B82E18"
+      "background": "#D44A18"
     }
   ]
 }

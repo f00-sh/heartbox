@@ -1,9 +1,9 @@
 Heartbox BBCode / forum swatches
 Background: #090909
 Foreground: #EDE6DE
-Red/Poppy:  #B82E18
-Sky:        #2A7EB0
-Green:      #5A7A42
+Red/Poppy:  #D44A18
+Sky:        #1E78C8
+Green:      #3D8A48
 Yellow:     #C49A3C
 Pink:       #C47A72
 Purple:     #454B93

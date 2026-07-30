@@ -272,14 +272,16 @@ h1 {
   font-family: var(--font);
   font-size: 0.78rem;
   padding: 0.45rem 0.55rem;
-  background: var(--hb-bg);
-  border: 1px solid var(--hb-dim);
-  color: var(--hb-silver);
+  background: rgba(237, 230, 222, 0.92) !important;
+  border: 1px solid rgba(9, 9, 9, 0.35) !important;
+  color: #090909 !important;
   text-decoration: none;
+  font-weight: 600 !important;
 }
 .port:hover {
-  border-color: var(--hb-red);
-  color: var(--hb-fg);
+  border-color: #090909 !important;
+  color: #090909 !important;
+  background: #fff !important;
 }
 
 .install-block {
@@ -337,3 +339,62 @@ h1 {
 body { min-height: 100dvh; }
 
 /* deploy-touch */
+
+
+/* heartbox card-content readability on shared poppy panels */
+.panel .swatch {
+  background: #090909 !important;
+  border: 1px solid rgba(9,9,9,0.35) !important;
+}
+.panel .swatch .meta {
+  background: #090909 !important;
+}
+.panel .swatch .name {
+  color: #EDE6DE !important;
+}
+.panel .swatch .hex {
+  color: #B8BEC2 !important;
+}
+.panel .hint,
+.panel .feel-list,
+.panel .feel-list li,
+.panel p {
+  color: #090909 !important;
+}
+.panel .port {
+  background: rgba(9,9,9,0.15) !important;
+  border: 1px solid rgba(9,9,9,0.35) !important;
+  color: #090909 !important;
+  font-weight: 600 !important;
+}
+.panel .port:hover {
+  background: rgba(9,9,9,0.28) !important;
+  color: #090909 !important;
+  border-color: #090909 !important;
+}
+.panel .install-block {
+  background: #050404 !important;
+  border: 1px solid #B8BEC2 !important;
+  color: #EDE6DE !important;
+}
+.panel .install-block p,
+.panel .install-block pre {
+  color: #EDE6DE !important;
+}
+.panel .install-block code {
+  color: #4AADF5 !important;
+}
+.panel .docs-list a {
+  color: #041e3a !important;
+  font-weight: 700 !important;
+}
+.panel .panel-head h2 {
+  color: #EDE6DE !important;
+}
+.panel .panel-head .muted,
+.panel .panel-head span {
+  color: rgba(237,230,222,0.85) !important;
+}
+.hero .lede, .hero .eyebrow, .hero h1 {
+  color: #E8ECF0 !important;
+}

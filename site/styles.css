@@ -29,19 +29,15 @@ body {
   margin: 0;
   min-height: 100dvh;
   font-family: var(--sans);
-  background: var(--hb-bg);
-  color: var(--hb-fg);
+  /* brand shell owns background/color */
+  background: transparent;
+  color: inherit;
   line-height: 1.55;
   text-rendering: optimizeLegibility;
 }
 
 .field {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  overflow: hidden;
-  background: var(--hb-bg);
+  display: none !important; /* shared sky + poppies own the field */
 }
 
 #poppies {
@@ -79,7 +75,7 @@ body {
 .skip:focus { left: 0; }
 
 .mono { font-family: var(--font); }
-.muted { color: var(--hb-comment); }
+.muted { /* shared */ }
 .silver { color: var(--hb-silver); font-weight: 600; }
 
 .top, main, .foot {
@@ -94,7 +90,8 @@ body {
   max-width: var(--max);
   margin: 0 auto;
   padding: 1rem var(--pad);
-  border-bottom: 1px solid var(--hb-dim);
+  position: relative;
+  /* border from shared theme */
 }
 
 .brand {
@@ -153,13 +150,7 @@ h1 {
   text-shadow: 0 0 40px rgba(224, 32, 48, 0.35);
 }
 
-.lede {
-  font-size: 1.05rem;
-  max-width: 40rem;
-  color: var(--hb-fg);
-  opacity: 0.95;
-  margin: 0 0 1.5rem;
-}
+.lede { /* color from shared theme */ max-width: 40rem; }
 .lede em { color: var(--hb-yellow); font-style: normal; }
 
 .lede-sm {
@@ -206,7 +197,7 @@ h1 {
 .panel {
   margin: 2.5rem 0;
   padding: 1.25rem 1.25rem 1.5rem;
-  background: color-mix(in srgb, var(--hb-panel) 88%, transparent);
+  background: transparent; /* shared .panel card owns fill */
   border: 1px solid var(--hb-dim);
   border-top: 2px solid var(--hb-silver);
   backdrop-filter: none;
@@ -344,3 +335,5 @@ h1 {
 /* Let shared sky show through */
 .crt, .field, .scanlines, .vignette, .tint { opacity: 0.25 !important; mix-blend-mode: soft-light; }
 body { min-height: 100dvh; }
+
+/* deploy-touch */

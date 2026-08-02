@@ -2,15 +2,15 @@
 themes {
     heartbox {
         fg "#EDE6DE"
-        bg "#090909"
-        black "#090909"
-        red "#D44A18"
-        green "#3D8A48"
-        yellow "#C49A3C"
-        blue "#1E78C8"
-        magenta "#C47A72"
-        cyan "#3A94D8"
+        bg "#0A1528"
+        black "#0A1528"
+        red "#E03818"
+        green "#3D9650"
+        yellow "#D4A838"
+        blue "#1E8AE8"
+        magenta "#D47A82"
+        cyan "#3AA0F0"
         white "#EDE6DE"
-        orange "#C45A20"
+        orange "#E06028"
     }
 }

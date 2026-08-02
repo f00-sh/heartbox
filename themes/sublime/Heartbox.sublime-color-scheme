@@ -1,65 +1,65 @@
 {
   "name": "Heartbox",
   "globals": {
-    "background": "#090909",
+    "background": "#0A1528",
     "foreground": "#EDE6DE",
-    "caret": "#B8BEC2",
-    "line_highlight": "#1C1617",
-    "selection": "#56180A",
-    "selection_border": "#3A3232",
-    "inactive_selection": "#1C1617",
-    "find_highlight": "#C49A3C",
-    "find_highlight_foreground": "#090909",
+    "caret": "#B8C0C8",
+    "line_highlight": "#142238",
+    "selection": "#4E1A22",
+    "selection_border": "#2A3548",
+    "inactive_selection": "#142238",
+    "find_highlight": "#D4A838",
+    "find_highlight_foreground": "#0A1528",
     "brackets_options": "underline",
-    "brackets_foreground": "#D44A18",
+    "brackets_foreground": "#E03818",
     "tags_options": "stippled_underline",
-    "tags_foreground": "#C47A72",
-    "guide": "#3A3232",
-    "active_guide": "#B8BEC2",
-    "gutter": "#090909",
-    "gutter_foreground": "#3A3232"
+    "tags_foreground": "#D47A82",
+    "guide": "#2A3548",
+    "active_guide": "#B8C0C8",
+    "gutter": "#0A1528",
+    "gutter_foreground": "#2A3548"
   },
   "rules": [
     {
       "name": "Comment",
       "scope": "comment",
-      "foreground": "#8A7874",
+      "foreground": "#6E7A8A",
       "font_style": "italic"
     },
     {
       "name": "String",
       "scope": "string",
-      "foreground": "#C49A3C"
+      "foreground": "#D4A838"
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
-      "foreground": "#C45A20"
+      "foreground": "#E06028"
     },
     {
       "name": "Keyword",
       "scope": "keyword",
-      "foreground": "#C47A72"
+      "foreground": "#D47A82"
     },
     {
       "name": "Storage",
       "scope": "storage",
-      "foreground": "#C47A72"
+      "foreground": "#D47A82"
     },
     {
       "name": "Function",
       "scope": "entity.name.function, support.function",
-      "foreground": "#1E78C8"
+      "foreground": "#1E8AE8"
     },
     {
       "name": "Class",
       "scope": "entity.name.class, entity.name.type",
-      "foreground": "#3D8A48"
+      "foreground": "#3D9650"
     },
     {
       "name": "Constant",
       "scope": "constant",
-      "foreground": "#454B93"
+      "foreground": "#5A4E9E"
     },
     {
       "name": "Variable",
@@ -69,23 +69,23 @@
     {
       "name": "Tag",
       "scope": "entity.name.tag",
-      "foreground": "#D44A18"
+      "foreground": "#E03818"
     },
     {
       "name": "Attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#3D8A48"
+      "foreground": "#3D9650"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation",
-      "foreground": "#B8BEC2"
+      "foreground": "#B8C0C8"
     },
     {
       "name": "Invalid",
       "scope": "invalid",
       "foreground": "#EDE6DE",
-      "background": "#D44A18"
+      "background": "#E03818"
     }
   ]
 }

@@ -8,21 +8,21 @@
     <dict>
       <key>settings</key>
       <dict>
-        <key>background</key><string>#090909</string>
+        <key>background</key><string>#0A1528</string>
         <key>foreground</key><string>#EDE6DE</string>
-        <key>caret</key><string>#B8BEC2</string>
-        <key>lineHighlight</key><string>#1C1617</string>
-        <key>selection</key><string>#56180A</string>
+        <key>caret</key><string>#B8C0C8</string>
+        <key>lineHighlight</key><string>#142238</string>
+        <key>selection</key><string>#4E1A22</string>
       </dict>
     </dict>
-    <dict><key>name</key><string>Comment</string><key>scope</key><string>comment</string><key>settings</key><dict><key>foreground</key><string>#8A7874</string><key>fontStyle</key><string>italic</string></dict></dict>
-    <dict><key>name</key><string>String</string><key>scope</key><string>string</string><key>settings</key><dict><key>foreground</key><string>#C49A3C</string></dict></dict>
-    <dict><key>name</key><string>Number</string><key>scope</key><string>constant.numeric</string><key>settings</key><dict><key>foreground</key><string>#C45A20</string></dict></dict>
-    <dict><key>name</key><string>Keyword</string><key>scope</key><string>keyword</string><key>settings</key><dict><key>foreground</key><string>#C47A72</string></dict></dict>
-    <dict><key>name</key><string>Function</string><key>scope</key><string>entity.name.function</string><key>settings</key><dict><key>foreground</key><string>#1E78C8</string></dict></dict>
-    <dict><key>name</key><string>Type</string><key>scope</key><string>entity.name.type</string><key>settings</key><dict><key>foreground</key><string>#3D8A48</string></dict></dict>
-    <dict><key>name</key><string>Constant</string><key>scope</key><string>constant</string><key>settings</key><dict><key>foreground</key><string>#454B93</string></dict></dict>
-    <dict><key>name</key><string>Punctuation</string><key>scope</key><string>punctuation</string><key>settings</key><dict><key>foreground</key><string>#B8BEC2</string></dict></dict>
+    <dict><key>name</key><string>Comment</string><key>scope</key><string>comment</string><key>settings</key><dict><key>foreground</key><string>#6E7A8A</string><key>fontStyle</key><string>italic</string></dict></dict>
+    <dict><key>name</key><string>String</string><key>scope</key><string>string</string><key>settings</key><dict><key>foreground</key><string>#D4A838</string></dict></dict>
+    <dict><key>name</key><string>Number</string><key>scope</key><string>constant.numeric</string><key>settings</key><dict><key>foreground</key><string>#E06028</string></dict></dict>
+    <dict><key>name</key><string>Keyword</string><key>scope</key><string>keyword</string><key>settings</key><dict><key>foreground</key><string>#D47A82</string></dict></dict>
+    <dict><key>name</key><string>Function</string><key>scope</key><string>entity.name.function</string><key>settings</key><dict><key>foreground</key><string>#1E8AE8</string></dict></dict>
+    <dict><key>name</key><string>Type</string><key>scope</key><string>entity.name.type</string><key>settings</key><dict><key>foreground</key><string>#3D9650</string></dict></dict>
+    <dict><key>name</key><string>Constant</string><key>scope</key><string>constant</string><key>settings</key><dict><key>foreground</key><string>#5A4E9E</string></dict></dict>
+    <dict><key>name</key><string>Punctuation</string><key>scope</key><string>punctuation</string><key>settings</key><dict><key>foreground</key><string>#B8C0C8</string></dict></dict>
   </array>
   <key>uuid</key><string>a1b2c3d4-e5f6-7890-abcd-ef1234567890</string>
 </dict>

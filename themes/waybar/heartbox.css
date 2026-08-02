@@ -5,23 +5,23 @@
   font-size: 13px;
 }
 window#waybar {
-  background: #090909;
+  background: #0A1528;
   color: #EDE6DE;
-  border-bottom: 2px solid #B8BEC2;
+  border-bottom: 2px solid #B8C0C8;
 }
 #workspaces button {
   padding: 0 8px;
-  color: #8A7874;
+  color: #6E7A8A;
   background: transparent;
 }
 #workspaces button.active {
-  color: #090909;
-  background: #D44A18;
+  color: #0A1528;
+  background: #E03818;
 }
 #clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray {
   padding: 0 10px;
   color: #EDE6DE;
 }
-#battery.warning { color: #C45A20; }
-#battery.critical { color: #D44A18; }
-#network.disconnected { color: #D44A18; }
+#battery.warning { color: #E06028; }
+#battery.critical { color: #E03818; }
+#network.disconnected { color: #E03818; }

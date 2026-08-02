@@ -1,19 +1,19 @@
 # Heartbox — dunst (fragment; merge into dunstrc)
 [global]
-    frame_color = "#B8BEC2"
+    frame_color = "#B8C0C8"
     separator_color = frame
 
 [urgency_low]
-    background = "#090909"
+    background = "#0A1528"
     foreground = "#EDE6DE"
-    frame_color = "#3A3232"
+    frame_color = "#2A3548"
 
 [urgency_normal]
-    background = "#090909"
+    background = "#0A1528"
     foreground = "#EDE6DE"
-    frame_color = "#B8BEC2"
+    frame_color = "#B8C0C8"
 
 [urgency_critical]
-    background = "#090909"
+    background = "#0A1528"
     foreground = "#EDE6DE"
-    frame_color = "#D44A18"
+    frame_color = "#E03818"

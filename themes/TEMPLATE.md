@@ -6,19 +6,19 @@ Copy this checklist when adding an app under `themes/<app>/`.
 
 | Token | Hex | Use |
 |---|---|---|
-| background | `#090909` | app chrome, editor bg |
-| current_line | `#1C1617` | line highlight, panels |
-| selection | `#56180A` | selection |
+| background | `#0A1528` | app chrome, editor bg |
+| current_line | `#142238` | line highlight, panels |
+| selection | `#4E1A22` | selection |
 | foreground | `#EDE6DE` | primary text |
-| comment | `#8A7874` | comments, muted |
-| sky | `#1E78C8` | functions, types, links (verse blue) |
-| green | `#3D8A48` | strings alt, classes, success |
-| orange | `#C45A20` | numbers, warnings |
-| pink | `#C47A72` | keywords |
-| purple | `#454B93` | constants, builtins |
-| red | `#D44A18` | poppy accent, errors, tags |
-| yellow | `#C49A3C` | strings |
-| **silver** | `#B8BEC2` | **cursor, chrome, punctuation — Kurt jacket metal** |
+| comment | `#6E7A8A` | comments, muted |
+| sky | `#1E8AE8` | functions, types, links (verse blue) |
+| green | `#3D9650` | strings alt, classes, success |
+| orange | `#E06028` | numbers, warnings |
+| pink | `#D47A82` | keywords |
+| purple | `#5A4E9E` | constants, builtins |
+| red | `#E03818` | poppy accent, errors, tags |
+| yellow | `#D4A838` | strings |
+| **silver** | `#B8C0C8` | **cursor, chrome, punctuation — Kurt jacket metal** |
 
 ## Feel rules
 

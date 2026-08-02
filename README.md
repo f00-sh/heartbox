@@ -14,19 +14,19 @@ and a cool **silver** metal accent.
 
 | Token | Hex | Role |
 |-------|-----|------|
-| background | `#1A1214` | Hospital-night underpaint |
-| current_line | `#2C1F22` | Surface / line highlight |
-| selection | `#3A2428` | Selection |
-| foreground | `#F4EBE0` | Hand-tinted cream |
-| comment | `#8A6E78` | Dusty mauve |
-| sky | `#5EC8E8` | Verse technicolor blue |
-| green | `#5FBF4A` | Field / stem green |
-| orange | `#E8924A` | Amber warmth |
-| pink | `#E86A9A` | Heart / anatomical pink |
-| purple | `#7A5A9E` | Bruise purple |
-| red | `#E02030` | Poppy red (hero) |
-| yellow | `#E8D45A` | Hand-tint yellow |
-| **silver** | `#B8C0C8` | **Cool metal jacket** |
+| background | `#0A1528` | Night cobalt underpaint (never pure black) |
+| current_line | `#142238` | Cool surface lift |
+| selection | `#4E1A22` | Arterial wine stain |
+| foreground | `#EDE6DE` | Hand-tint cream (never white) |
+| comment | `#6E7A8A` | Cool annotation dust |
+| sky | `#1E8AE8` | Oversaturated verse cobalt |
+| green | `#3D9650` | Stem / ward mint |
+| orange | `#E06028` | Petal rim heat |
+| pink | `#D47A82` | Mucosa / flesh |
+| purple | `#5A4E9E` | Venous bruise |
+| red | `#E03818` | Arterial poppy vermillion |
+| yellow | `#D4A838` | Stamen ochre |
+| **silver** | `#B8C0C8` | **Stainless medical tool metal** |
 
 Canonical files: [`palette/heartbox.json`](palette/heartbox.json) · CSS · TOML · YAML · SCSS.
 

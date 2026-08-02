@@ -1,31 +1,31 @@
 # Heartbox — yazi (flavor fragment)
 [mgr]
-cwd = { fg = "#1E78C8" }
-hovered = { fg = "#EDE6DE", bg = "#56180A" }
+cwd = { fg = "#1E8AE8" }
+hovered = { fg = "#EDE6DE", bg = "#4E1A22" }
 preview_hovered = { underline = true }
-find_keyword = { fg = "#C49A3C", bold = true }
-find_position = { fg = "#C47A72", bg = "reset", bold = true }
-marker_copied = { fg = "#3D8A48", bg = "#3D8A48" }
-marker_cut = { fg = "#D44A18", bg = "#D44A18" }
-marker_selected = { fg = "#C49A3C", bg = "#C49A3C" }
-count_copied = { fg = "#090909", bg = "#3D8A48" }
-count_cut = { fg = "#090909", bg = "#D44A18" }
-count_selected = { fg = "#090909", bg = "#C49A3C" }
+find_keyword = { fg = "#D4A838", bold = true }
+find_position = { fg = "#D47A82", bg = "reset", bold = true }
+marker_copied = { fg = "#3D9650", bg = "#3D9650" }
+marker_cut = { fg = "#E03818", bg = "#E03818" }
+marker_selected = { fg = "#D4A838", bg = "#D4A838" }
+count_copied = { fg = "#0A1528", bg = "#3D9650" }
+count_cut = { fg = "#0A1528", bg = "#E03818" }
+count_selected = { fg = "#0A1528", bg = "#D4A838" }
 border_symbol = "│"
-border_style = { fg = "#B8BEC2" }
+border_style = { fg = "#B8C0C8" }
 
 [status]
 separator_open = ""
 separator_close = ""
-separator_style = { fg = "#1C1617", bg = "#1C1617" }
-mode_normal = { fg = "#090909", bg = "#D44A18", bold = true }
-mode_select = { fg = "#090909", bg = "#C49A3C", bold = true }
-mode_unset = { fg = "#090909", bg = "#C47A72", bold = true }
+separator_style = { fg = "#142238", bg = "#142238" }
+mode_normal = { fg = "#0A1528", bg = "#E03818", bold = true }
+mode_select = { fg = "#0A1528", bg = "#D4A838", bold = true }
+mode_unset = { fg = "#0A1528", bg = "#D47A82", bold = true }
 progress_label = { bold = true }
-progress_normal = { fg = "#1E78C8", bg = "#090909" }
-progress_error = { fg = "#D44A18", bg = "#090909" }
-permissions_t = { fg = "#3D8A48" }
-permissions_r = { fg = "#C49A3C" }
-permissions_w = { fg = "#D44A18" }
-permissions_x = { fg = "#1E78C8" }
-permissions_s = { fg = "#B8BEC2" }
+progress_normal = { fg = "#1E8AE8", bg = "#0A1528" }
+progress_error = { fg = "#E03818", bg = "#0A1528" }
+permissions_t = { fg = "#3D9650" }
+permissions_r = { fg = "#D4A838" }
+permissions_w = { fg = "#E03818" }
+permissions_x = { fg = "#1E8AE8" }
+permissions_s = { fg = "#B8C0C8" }

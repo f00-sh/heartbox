@@ -1,25 +1,25 @@
 # Heartbox — lsd colors
-user: 1E78C8
-group: 454B93
+user: 1E8AE8
+group: 5A4E9E
 permission:
-  read: 3D8A48
-  write: C49A3C
-  exec: D44A18
-  exec-sticky: C47A72
-  no-access: 3A3232
+  read: 3D9650
+  write: D4A838
+  exec: E03818
+  exec-sticky: D47A82
+  no-access: 2A3548
 date:
-  hour-old: B8BEC2
-  day-old: 8A7874
-  older: 3A3232
+  hour-old: B8C0C8
+  day-old: 6E7A8A
+  older: 2A3548
 size:
-  none: 3A3232
-  small: 3D8A48
-  medium: C49A3C
-  large: C45A20
+  none: 2A3548
+  small: 3D9650
+  medium: D4A838
+  large: E06028
 inode:
   valid: EDE6DE
-  invalid: D44A18
+  invalid: E03818
 links:
-  valid: 1E78C8
-  invalid: D44A18
-tree-edge: 3A3232
+  valid: 1E8AE8
+  invalid: E03818
+tree-edge: 2A3548

@@ -1,20 +1,20 @@
 # Heartbox — i3/sway colors
 # class                 border              bground             text                indicator           child_border
-client.focused          #D44A18     #1C1617 #EDE6DE #B8BEC2   #D44A18
-client.focused_inactive #3A3232 #090909 #8A7874 #3A3232 #3A3232
-client.unfocused        #090909 #090909 #8A7874 #090909 #090909
-client.urgent           #C45A20  #C45A20     #090909 #C45A20  #C45A20
-client.placeholder      #090909 #090909 #EDE6DE #090909 #090909
-client.background       #090909
+client.focused          #E03818     #142238 #EDE6DE #B8C0C8   #E03818
+client.focused_inactive #2A3548 #0A1528 #6E7A8A #2A3548 #2A3548
+client.unfocused        #0A1528 #0A1528 #6E7A8A #0A1528 #0A1528
+client.urgent           #E06028  #E06028     #0A1528 #E06028  #E06028
+client.placeholder      #0A1528 #0A1528 #EDE6DE #0A1528 #0A1528
+client.background       #0A1528
 
 bar {
     colors {
-        background #090909
+        background #0A1528
         statusline #EDE6DE
-        separator  #3A3232
-        focused_workspace  #D44A18 #D44A18 #090909
-        active_workspace   #56180A #1C1617 #EDE6DE
-        inactive_workspace #090909 #090909 #8A7874
-        urgent_workspace   #C45A20 #C45A20 #090909
+        separator  #2A3548
+        focused_workspace  #E03818 #E03818 #0A1528
+        active_workspace   #4E1A22 #142238 #EDE6DE
+        inactive_workspace #0A1528 #0A1528 #6E7A8A
+        urgent_workspace   #E06028 #E06028 #0A1528
     }
 }

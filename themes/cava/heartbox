@@ -1,10 +1,10 @@
 ; Heartbox — cava
 [color]
-background = '#090909'
-foreground = '#D44A18'
+background = '#0A1528'
+foreground = '#E03818'
 gradient = 1
 gradient_count = 4
-gradient_color_1 = '#454B93'
-gradient_color_2 = '#C47A72'
-gradient_color_3 = '#D44A18'
-gradient_color_4 = '#C45A20'
+gradient_color_1 = '#5A4E9E'
+gradient_color_2 = '#D47A82'
+gradient_color_3 = '#E03818'
+gradient_color_4 = '#E06028'

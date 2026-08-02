@@ -1,3 +1,13 @@
+## [0.4.0] - 2026-08-02
+
+### Changed
+
+- **Revamp:** multi-expert consensus on poppy-xray specimen (analog color, vision science, Technicolor emulsion, flora/sky, hospital design, medical tissue color).
+- **Background is no longer black** — night cobalt underpaint `#0A1528` (Technicolor sky base).
+- **Silver** stays stainless instrument metal `#B8C0C8` (never pure white).
+- Oversaturated poppy red `#E03818` vs verse sky `#1E8AE8`; cream paper `#E9E0D4`; code film gate `#0A101C` (blue-night, not pure black).
+- Regenerated all application ports; f00 shared CSS tracks this version.
+
 ## [0.3.1] - 2026-04-10
 
 ### Changed

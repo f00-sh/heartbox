@@ -1,22 +1,22 @@
 /* Heartbox Theme — canonical CSS custom properties */
 :root {
-  --hb-bg: #090909;
-  --hb-bg-alt: #1C1617;
-  --hb-selection: #56180A;
+  --hb-bg: #0A1528;
+  --hb-bg-alt: #142238;
+  --hb-selection: #4E1A22;
   --hb-fg: #EDE6DE;
-  --hb-comment: #8A7874;
-  --hb-sky: #1E78C8;
-  --hb-green: #3D8A48;
-  --hb-orange: #C45A20;
-  --hb-pink: #C47A72;
-  --hb-purple: #454B93;
-  --hb-red: #D44A18;
-  --hb-yellow: #C49A3C;
-  --hb-silver: #B8BEC2;
-  --hb-bright-black: #3A3232;
+  --hb-comment: #6E7A8A;
+  --hb-sky: #1E8AE8;
+  --hb-green: #3D9650;
+  --hb-orange: #E06028;
+  --hb-pink: #D47A82;
+  --hb-purple: #5A4E9E;
+  --hb-red: #E03818;
+  --hb-yellow: #D4A838;
+  --hb-silver: #B8C0C8;
+  --hb-bright-black: #2A3548;
   --hb-bright-white: #E8E2D8;
-  --hb-panel: #141011;
-  --hb-border: #3A3232;
-  --hb-accent: #D44A18;
-  --hb-metal: #B8BEC2;
+  --hb-panel: #1A2844;
+  --hb-border: #2A3548;
+  --hb-accent: #E03818;
+  --hb-metal: #B8C0C8;
 }

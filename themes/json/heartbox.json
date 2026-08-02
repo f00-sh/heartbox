@@ -1,63 +1,63 @@
 {
   "name": "Heartbox",
   "author": "f00",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "license": "MIT",
-  "description": "Technicolor dark theme photo-locked to organic poppy-xray field: warm cobalt sky, Oz scarlet petals, translucent edge lavender, hospital cream paper, cool silver. Pure whites banned; blacks allowed pure.",
+  "description": "Technicolor poppy-xray revamp: night-cobalt underpaint (never pure black), oversaturated petal red vs verse sky, hospital cream paper, stainless silver tools. Expert consensus \u2014 analog dye, human vision, medical/hospital material.",
   "aesthetic": {
     "feel": [
-      "organic translucent poppy-xray photography as the brand field",
-      "warm cobalt sky sampled from the hero (UI-safe, never LED pure)",
-      "Oz scarlet-orange petals as accent",
-      "hospital cream paper panels with poppy type",
-      "cool silver chrome ladder \u2014 never pure white",
-      "stem green and bruise purple secondary accents"
+      "poppy x-ray photography as the brand specimen",
+      "night cobalt field underpaint \u2014 blueish, not charcoal black",
+      "oversaturated Technicolor red/orange petals vs Rayleigh sky",
+      "1950s hospital cream charts + stainless instrument silver",
+      "organ/tissue accents: arterial red, venous purple, mucosa pink",
+      "pure whites banned; pure blacks banned for background"
     ],
-    "inspiration": "Heart-Shaped Box video + organic poppy-xray photo field on f00 sites. Palette tokens sampled then softened for pure-color ban. Not affiliated with rights holders.",
-    "source_method": "hero photo sample (hb-hero-xray-r8) + UI pure-channel compliance"
+    "inspiration": "Organic poppy-xray field + Technicolor dye transfer + mid-century hospital metal/cream. Original work; not affiliated with rights holders.",
+    "source_method": "hb-hero-xray-r8 + multi-expert consensus (analog color, vision science, emulsion, flora/sky, Technicolor, 1950s hospital, medical tissue color)"
   },
   "colors": {
     "background": {
-      "hex": "#090909",
+      "hex": "#0A1528",
       "rgb": [
-        9,
-        9,
-        9
+        10,
+        21,
+        40
       ],
       "hsl": [
-        0,
-        0,
-        4
+        218,
+        60,
+        10
       ],
-      "role": "Hospital charcoal black"
+      "role": "Night cobalt underpaint \u2014 Technicolor sky base, never pure black"
     },
     "current_line": {
-      "hex": "#1C1617",
+      "hex": "#142238",
       "rgb": [
-        28,
-        22,
-        23
+        20,
+        34,
+        56
       ],
       "hsl": [
-        350,
-        12,
-        10
+        217,
+        47,
+        15
       ],
-      "role": "Warm surface lift"
+      "role": "Cool elevated line / surface lift in same blue emulsion"
     },
     "selection": {
-      "hex": "#56180A",
+      "hex": "#4E1A22",
       "rgb": [
-        86,
-        24,
-        10
+        78,
+        26,
+        34
       ],
       "hsl": [
-        11,
-        79,
-        19
+        351,
+        50,
+        20
       ],
-      "role": "Soil / blood selection"
+      "role": "Dried arterial stain / wine soil in tissue"
     },
     "foreground": {
       "hex": "#EDE6DE",
@@ -71,147 +71,147 @@
         29,
         90
       ],
-      "role": "Cream hand-tint light"
+      "role": "Hand-tint cream light (never pure white)"
     },
     "comment": {
-      "hex": "#8A7874",
+      "hex": "#6E7A8A",
       "rgb": [
-        138,
-        120,
-        116
+        110,
+        122,
+        138
       ],
       "hsl": [
+        214,
         11,
-        9,
-        50
+        49
       ],
-      "role": "Dusty mauve-grey"
+      "role": "Cool annotation dust \u2014 cool ground, muted S-cone grey-blue"
     },
     "sky": {
-      "hex": "#1E78C8",
+      "hex": "#1E8AE8",
       "rgb": [
         30,
-        120,
-        200
+        138,
+        232
       ],
       "hsl": [
         208,
-        73,
-        45
+        81,
+        51
       ],
-      "role": "Warm cobalt sky from poppy-xray field"
+      "role": "Oversaturated verse cobalt / Rayleigh sky from poppy field"
     },
     "green": {
-      "hex": "#3D8A48",
+      "hex": "#3D9650",
       "rgb": [
         61,
-        138,
-        72
+        150,
+        80
       ],
       "hsl": [
-        128,
-        38,
-        39
+        133,
+        42,
+        41
       ],
-      "role": "Stem green"
+      "role": "Chloroplast stem + institutional mint (ward calm)"
     },
     "orange": {
-      "hex": "#C45A20",
+      "hex": "#E06028",
       "rgb": [
-        196,
-        90,
-        32
+        224,
+        96,
+        40
       ],
       "hsl": [
-        21,
-        72,
-        45
+        18,
+        75,
+        52
       ],
-      "role": "Ochre heat"
+      "role": "Carotenoid petal rim / ochre heat"
     },
     "pink": {
-      "hex": "#C47A72",
-      "rgb": [
-        196,
-        122,
-        114
-      ],
-      "hsl": [
-        6,
-        41,
-        61
-      ],
-      "role": "Flesh / anatomical"
-    },
-    "purple": {
-      "hex": "#454B93",
-      "rgb": [
-        69,
-        75,
-        147
-      ],
-      "hsl": [
-        235,
-        36,
-        42
-      ],
-      "role": "Blue-star field violet"
-    },
-    "red": {
-      "hex": "#D44A18",
+      "hex": "#D47A82",
       "rgb": [
         212,
-        74,
+        122,
+        130
+      ],
+      "hsl": [
+        355,
+        51,
+        65
+      ],
+      "role": "Mucosa / translucent petal flesh under OR light"
+    },
+    "purple": {
+      "hex": "#5A4E9E",
+      "rgb": [
+        90,
+        78,
+        158
+      ],
+      "hsl": [
+        249,
+        34,
+        46
+      ],
+      "role": "Venous bruise + indigo dye-transfer"
+    },
+    "red": {
+      "hex": "#E03818",
+      "rgb": [
+        224,
+        56,
         24
       ],
       "hsl": [
-        15,
-        79,
-        46
+        10,
+        81,
+        49
       ],
-      "role": "Oz scarlet petal core"
+      "role": "Arterial poppy vermillion \u2014 Oz scarlet core"
     },
     "yellow": {
-      "hex": "#C49A3C",
+      "hex": "#D4A838",
       "rgb": [
-        196,
-        154,
-        60
+        212,
+        168,
+        56
       ],
       "hsl": [
-        41,
-        53,
-        50
+        43,
+        64,
+        53
       ],
-      "role": "Sun-sick ochre"
+      "role": "Stamen / sun-sick ochre (mid, avoids mud with sky)"
     },
     "silver": {
-      "hex": "#B8BEC2",
+      "hex": "#B8C0C8",
       "rgb": [
         184,
-        190,
-        194
+        192,
+        200
       ],
       "hsl": [
-        204,
-        8,
-        74
+        210,
+        13,
+        75
       ],
-      "role": "Chrome jacket metal"
+      "role": "Brushed stainless medical tool metal \u2014 never white"
     },
     "bright_black": {
-      "hex": "#3A3232",
+      "hex": "#2A3548",
       "rgb": [
-        58,
-        50,
-        50
+        42,
+        53,
+        72
       ],
       "hsl": [
-        0,
-        7,
-        21
+        218,
+        26,
+        22
       ],
-      "role": "Muted black"
+      "role": "Blue-shadow muted black (edges, separators)"
     },
     "bright_white": {
       "hex": "#E8E2D8",
@@ -222,53 +222,55 @@
       ],
       "hsl": [
         37,
-        25,
-        87
+        26,
+        88
       ],
-      "role": "Cream-silver peak (never pure white)"
+      "role": "Cream-silver peak instrument highlight"
     }
   },
   "ansi": {
-    "black": "#090909",
-    "red": "#D44A18",
-    "green": "#3D8A48",
-    "yellow": "#C49A3C",
-    "blue": "#1E78C8",
-    "magenta": "#C47A72",
-    "cyan": "#3A94D8",
+    "black": "#0A1528",
+    "red": "#E03818",
+    "green": "#3D9650",
+    "yellow": "#D4A838",
+    "blue": "#1E8AE8",
+    "magenta": "#D47A82",
+    "cyan": "#3AA0F0",
     "white": "#EDE6DE",
-    "bright_black": "#3A3232",
-    "bright_red": "#E86022",
-    "bright_green": "#5AA05A",
-    "bright_yellow": "#D4B85A",
-    "bright_blue": "#3A94D8",
-    "bright_magenta": "#D49A94",
-    "bright_cyan": "#6AACC8",
+    "bright_black": "#2A3548",
+    "bright_red": "#F05028",
+    "bright_green": "#55A860",
+    "bright_yellow": "#E0BC55",
+    "bright_blue": "#3AA0F0",
+    "bright_magenta": "#E09098",
+    "bright_cyan": "#6AB4F5",
     "bright_white": "#E8E2D8",
-    "silver": "#B8BEC2"
+    "silver": "#B8C0C8"
   },
   "ui": {
-    "border": "#3A3232",
-    "panel": "#141011",
-    "muted": "#8A7874",
-    "accent": "#D44A18",
-    "accent_secondary": "#1E78C8",
-    "metal": "#B8BEC2",
-    "chrome": "#D0D5DB",
-    "chrome_bright": "#E4E8ED",
-    "paper": "#E8DFD4",
-    "title": "#8A2810",
-    "danger": "#D44A18",
-    "warning": "#C45A20",
-    "success": "#3D8A48",
-    "info": "#1E78C8",
-    "sky_bright": "#3A94D8",
-    "sky_deep": "#0E4F8A",
-    "sky_shadow": "#0A3A62",
-    "red_deep": "#8A2810",
-    "soil": "#56180A",
-    "flesh": "#C47A72",
-    "petal_edge": "#8B9AD0"
+    "border": "#2A3548",
+    "panel": "#1A2844",
+    "elevated": "#121E36",
+    "muted": "#6E7A8A",
+    "accent": "#E03818",
+    "accent_secondary": "#1E8AE8",
+    "metal": "#B8C0C8",
+    "chrome": "#C5CCD4",
+    "chrome_bright": "#D8DEE6",
+    "paper": "#E9E0D4",
+    "title": "#8C2414",
+    "danger": "#E03818",
+    "warning": "#E06028",
+    "success": "#3D9650",
+    "info": "#1E8AE8",
+    "sky_bright": "#3AA0F0",
+    "sky_deep": "#0E4F9A",
+    "sky_shadow": "#0A2A52",
+    "red_deep": "#8C2414",
+    "soil": "#4E1A22",
+    "flesh": "#D47A82",
+    "petal_edge": "#8B9AD0",
+    "code_bg": "#0A101C"
   },
   "syntax": {
     "keyword": "pink",
